@@ -1,13 +1,8 @@
 import React from "react";
+import Home from "/src/components/pages/Home";
 
 const App = () => {
-  return (
-    <div>
-      <div className="Container bg-red-500">
-        <h1>hi there!</h1>
-      </div>
-    </div>
-  );
+  return <Home />;
 };
 
 export default App;
