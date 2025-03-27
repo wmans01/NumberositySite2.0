@@ -4,7 +4,7 @@ import HomeNavBar from "/src/components/HomeNavBar.jsx";
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
+      <h1>About</h1>
     </>
   );
 };

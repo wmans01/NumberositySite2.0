@@ -17,6 +17,7 @@ The following is an incomplete changelog of the differences from the old WordPre
 - [Vite](https://vite.dev/) as a framework, instead of vanilla JS
 - [Tailwind CSS V4](https://tailwindcss.com/) instead of raw CSS and style tags
 - [React](https://react.dev/) instead of raw HTML
+- [React Router](https://reactrouter.com/) for routing
 - Hosted with [Render](https://render.com/)
 
 #### Bug fixes

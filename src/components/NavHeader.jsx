@@ -1,9 +1,10 @@
 import React from "react";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 const NavHeader = () => {
   return (
-    <nav className="bg-gray-800 flex justify-between m-0 p-0">
-      <a href="/" className="flex pl-4">
+    <nav className="transparent flex justify-between m-0 p-0">
+      <Link to="/" className="flex p-0 pl-4">
         <img
           border="0"
           alt="Numberosity Logo"
@@ -11,51 +12,29 @@ const NavHeader = () => {
           width={50}
           height={50}
         />
-      </a>
+      </Link>
       <ul className="navBar">
-        <li>
-          <a className="navItem" href="/about">
-            About
-          </a>
-        </li>
-        <li>
-          <a className="navItem" href="/teams">
-            Teams
-          </a>
-        </li>
-        <li>
-          <a className="navItem" href="/learning">
-            Learning Program
-          </a>
-        </li>
-        <li>
-          <a className="navItem" href="/outreach">
-            Outreach
-          </a>
-        </li>
-        <li>
-          <a className="navItem" href="/news">
-            News
-          </a>
-        </li>
-        <li>
-          <a className="navItem" href="/resources">
-            Resources
-          </a>
-        </li>
-        <li>
-          <a className="navItem" href="/join">
-            Join
-          </a>
-        </li>
-        <li>
-          <a className="navItem" href="/donate">
-            Donations
-          </a>
-        </li>
+        <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/teams">Teams</CustomLink>
+        <CustomLink to="/learning">Learning Program</CustomLink>
+        <CustomLink to="/outreach">Outreach</CustomLink>
+        <CustomLink to="/news">News</CustomLink>
+        <CustomLink to="/resources">Resources</CustomLink>
+        <CustomLink to="/join">Join</CustomLink>
+        <CustomLink to="/donate">Donations</CustomLink>
       </ul>
     </nav>
   );
 };
 
 export default NavHeader;
+
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  return (
+    <Link to={to} {...props}>
+      <li className={isActive ? "navItem active" : "navItem"}>{children}</li>
+    </Link>
+  );
+}
