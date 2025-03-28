@@ -8,14 +8,13 @@ import News from "/src/components/pages/News";
 import Resources from "/src/components/pages/Resources";
 import Join from "/src/components/pages/Join";
 import Donate from "/src/components/pages/Donations";
+import Footer from "/src/components/Footer";
 import PageNotFound from "/src/components/pages/PageNotFound";
-import HomeNavBar from "/src/components/HomeNavBar.jsx";
 import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      <HomeNavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -29,6 +28,7 @@ const App = () => {
         <Route path="/error" element={<Error />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 };

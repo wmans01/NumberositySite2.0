@@ -1,12 +1,13 @@
 import React from "react";
-import HomeNavBar from "/src/components/HomeNavBar.jsx";
+import NormalNavBar from "/src/components/NormalNavBar.jsx";
 
-const Home = () => {
+const News = () => {
   return (
     <>
+      <NormalNavBar />
       <h1>News</h1>
     </>
   );
 };
 
-export default Home;
+export default News;

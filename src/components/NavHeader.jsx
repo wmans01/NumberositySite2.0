@@ -1,9 +1,14 @@
 import React from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
-const NavHeader = () => {
+const NavHeader = ({ home }) => {
   return (
-    <nav className="transparent flex justify-between m-0 p-0">
+    <nav
+      className={
+        (!home ? "bg-blue-950 " : "bg-transparent ") +
+        "flex justify-between m-0 p-0"
+      }
+    >
       <Link to="/" className="flex p-0 pl-4">
         <img
           border="0"
