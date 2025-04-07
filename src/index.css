@@ -2,6 +2,12 @@
 @import "tailwindcss";
 
 @layer base {
+  /* Text selection styling */
+  ::selection {
+    background-color: #0ba2d9;
+    color: white;
+  }
+
   h1 {
     font-family: "Kanit", sans-serif;
     @apply flex items-center justify-center text-blue-300 text-5xl;
@@ -65,5 +71,79 @@
 
   .bounce {
     animation: bounce 1s infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes accelerate {
+    0% {
+      animation-timing-function: linear;
+    }
+    100% {
+      animation-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+    }
+  }
+
+  @keyframes star {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(var(--tx), var(--ty)) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  .spinning-card {
+    transition: transform 0.3s ease;
+  }
+
+  .spinning-card:hover {
+    animation: spin 1s forwards;
+  }
+
+  .star {
+    position: fixed;
+    pointer-events: none;
+    width: var(--size, 4px);
+    height: var(--size, 4px);
+    background: var(--color, #ffd700);
+    border-radius: 50%;
+    animation: star var(--duration, 1s) forwards;
+    box-shadow: 0 0 10px var(--color, #ffd700);
+  }
+
+  .star::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(var(--size, 4px) * 2);
+    height: calc(var(--size, 4px) * 2);
+    background: radial-gradient(
+      circle,
+      var(--color, #ffd700) 0%,
+      transparent 70%
+    );
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+
+  .eye {
+    position: fixed;
+    pointer-events: none;
+    font-size: var(--size, 24px);
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    transition: left 0.05s linear, top 0.05s linear;
   }
 }

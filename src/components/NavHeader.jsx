@@ -111,7 +111,10 @@ const NavHeader = ({ home }) => {
  */
 function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to);
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  const isActive =
+    useMatch({ path: resolvedPath.pathname, end: true }) ||
+    (to === "/about" &&
+      (useMatch({ path: "/about/*" }) || useMatch({ path: "/about" })));
   return (
     <Link to={to} {...props}>
       <li className={isActive ? "navItem active " : "navItem text-white"}>
