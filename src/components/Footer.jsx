@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="absolute bottom-0 w-[100%] bg-black px-[5%] py-[1%] text-center">
+    <div className="w-full bg-black px-[5%] py-[1%] text-center">
       <p className="footerText">
         © 2025 Numberosity Academy. All Rights Reserved.
       </p>
