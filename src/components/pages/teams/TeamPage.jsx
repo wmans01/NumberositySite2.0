@@ -24,6 +24,12 @@ const TeamPage = () => {
         "Launch Signature Event Tournament and Skills Challenge Champions",
         "2x Worlds Qualified",
       ],
+      historicalAchievements: [
+        "Framingham V5RC High Stakes December Tournament Finalists",
+        "Massachusetts State Championship Tournament Semifinalists",
+        "Multiple Tournament Finalist Appearances",
+        "Consistent Skills Challenge Top 10 Rankings",
+      ],
       members: [
         "Jeremy Wang - Captain and Builder",
         "Peter Bai - Programmer",
@@ -45,6 +51,11 @@ const TeamPage = () => {
         "Framingham V5RC High Stakes December Design Award Winners",
         "Worlds Qualified",
       ],
+      historicalAchievements: [
+        "Multiple Tournament Semifinalist Appearances",
+        "Consistent Design Award Nominations",
+        "Skills Challenge Top 15 Rankings",
+      ],
       members: [
         "Jason Ma - Builder and Designer",
         "Ralph Wang - Programmer",
@@ -65,6 +76,11 @@ const TeamPage = () => {
         "Framingham December MS Event Tournament Finalists",
         "Worlds Qualified",
       ],
+      historicalAchievements: [
+        "Multiple Tournament Quarterfinalist Appearances",
+        "Skills Challenge Top 20 Rankings",
+        "Consistent Tournament Participation",
+      ],
       members: [
         "Jack Li - Builder and Designer",
         "Mason Wu - Builder",
@@ -83,6 +99,11 @@ const TeamPage = () => {
         "Mashpee Winter Classic Excellence Award and Tournament Champions",
         "ALA Winter Classic Innovate Award Winners",
         "Worlds Qualified",
+      ],
+      historicalAchievements: [
+        "Multiple Tournament Quarterfinalist Appearances",
+        "Skills Challenge Top 25 Rankings",
+        "Consistent Tournament Participation",
       ],
       members: [
         "Jacob Seo - Builder and Driver",
@@ -103,6 +124,11 @@ const TeamPage = () => {
         "Massachusetts State Championship Build Award Winners",
         "Mashpee Winter Classic Excellence Award and Tournament Champions",
         "Worlds Qualified",
+      ],
+      historicalAchievements: [
+        "Multiple Tournament Semifinalist Appearances",
+        "Skills Challenge Top 20 Rankings",
+        "Consistent Build Award Nominations",
       ],
       members: [
         "Bojro Das - Programmer and Driver",
@@ -191,11 +217,59 @@ const TeamPage = () => {
               <h3 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-4">
                 Notable Achievements
               </h3>
-              <ul className="list-disc list-inside font-['Roboto'] text-gray-600">
+              <div className="space-y-4">
                 {team.achievements.map((achievement, index) => (
-                  <li key={index}>{achievement}</li>
+                  <div key={index} className="flex items-start gap-3">
+                    <div className="flex-shrink-0 mt-1">
+                      <svg
+                        className="w-5 h-5 text-[#0BA2D9]"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <p className="font-['Roboto'] text-gray-700">
+                      {achievement}
+                    </p>
+                  </div>
                 ))}
-              </ul>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-md p-6 border border-gray-200 col-span-full">
+              <h3 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-4">
+                Historical Achievements
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                {team.historicalAchievements.map((achievement, index) => (
+                  <div
+                    key={index}
+                    className="bg-gray-50 rounded-lg p-3 flex items-start gap-2"
+                  >
+                    <div className="flex-shrink-0 mt-0.5">
+                      <svg
+                        className="w-3 h-3 text-gray-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <p className="font-['Roboto'] text-gray-500 text-xs">
+                      {achievement}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
 
             <div className="bg-white rounded-xl shadow-md p-6 border border-gray-200 md:col-span-2">
