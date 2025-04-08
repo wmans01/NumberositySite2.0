@@ -180,6 +180,13 @@ const AboutPeople = () => {
         "A freshman at Andover High School, Abinav is passionate about programming and teaching. He helps students develop their software development skills and enjoys making programming concepts fun and accessible through interactive lessons.",
       image: "/src/assets/about/abinav.jpg",
     },
+    {
+      name: "Athena Wang",
+      role: "Advisor, Learning Program",
+      description:
+        "Athena is a freshman at Princeton University. She started the Numberosity Learning Program Branch, an online STEM learning platform for underprivileged students in 2022, which evolved into the current Numberosity Academy. She loves sharing her STEM knowledge and experiences with others and is excited to continue expanding the outreach of her program!",
+      image: "/src/assets/about/athena.jpg",
+    },
   ];
 
   return (

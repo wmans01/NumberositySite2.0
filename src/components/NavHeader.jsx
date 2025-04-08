@@ -74,7 +74,6 @@ const NavHeader = ({ home }) => {
         <CustomLink to="/learning">Learning</CustomLink>
         <CustomLink to="/outreach">Outreach</CustomLink>
         <CustomLink to="/news">News</CustomLink>
-        <CustomLink to="/resources">Resources</CustomLink>
         <CustomLink to="/join">Join</CustomLink>
         <CustomLink to="/donate">Donations</CustomLink>
       </ul>
@@ -91,7 +90,6 @@ const NavHeader = ({ home }) => {
           <CustomLink to="/learning">Learning</CustomLink>
           <CustomLink to="/outreach">Outreach</CustomLink>
           <CustomLink to="/news">News</CustomLink>
-          <CustomLink to="/resources">Resources</CustomLink>
           <CustomLink to="/join">Join</CustomLink>
           <CustomLink to="/donate">Donations</CustomLink>
         </ul>
@@ -114,7 +112,8 @@ function CustomLink({ to, children, ...props }) {
   const isActive =
     useMatch({ path: resolvedPath.pathname, end: true }) ||
     (to === "/about" &&
-      (useMatch({ path: "/about/*" }) || useMatch({ path: "/about" })));
+      (useMatch({ path: "/about/*" }) || useMatch({ path: "/about" }))) ||
+    (to === "/teams" && useMatch({ path: "/teams/*" }));
   return (
     <Link to={to} {...props}>
       <li className={isActive ? "navItem active " : "navItem text-white"}>
