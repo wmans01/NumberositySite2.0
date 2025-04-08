@@ -63,7 +63,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gray-200 animate-pulse rounded-xl"></div>
               <img
-                src="/src/assets/about.jpg"
+                src="/assets/about.jpg"
                 alt="RoboLight 2024"
                 className="w-full h-auto rounded-xl shadow-md relative z-10"
                 loading="lazy"

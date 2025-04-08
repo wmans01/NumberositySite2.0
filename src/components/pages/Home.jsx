@@ -24,21 +24,21 @@ import { BiChevronDown } from "react-icons/bi";
 const Home = () => {
   const sponsors = [
     {
-      image: "/src/assets/sponsors/prepEDU.png",
+      image: "/assets/sponsors/prepEDU.png",
       name: "PrepEdu Educational Consulting",
       description:
         "Description of Sponsor 1 and their contribution to Numberosity Academy.",
       link: "https://prepedu.org",
     },
     {
-      image: "/src/assets/sponsors/phoenix.png",
+      image: "/assets/sponsors/phoenix.png",
       name: "Phoenix Real Estate",
       description:
         "Description of Sponsor 2 and their contribution to Numberosity Academy.",
       link: "https://www.prepboston.com/",
     },
     {
-      image: "/src/assets/sponsors/diyiboston.png",
+      image: "/assets/sponsors/diyiboston.png",
       name: "Diyi Boston",
       description:
         "Description of Sponsor 3 and their contribution to Numberosity Academy.",
@@ -120,7 +120,7 @@ const Home = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-200 rounded-lg overflow-hidden aspect-video">
                 <img
-                  src="/src/assets/about/lobstah.jpg"
+                  src="/assets/about/lobstah.jpg"
                   alt="Numberosity Academy Team"
                   className="w-full h-full object-cover"
                 />

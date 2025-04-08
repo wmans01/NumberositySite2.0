@@ -37,7 +37,7 @@ const Summer2025 = () => {
           {/* Main Flyer Image */}
           <div className="mb-16">
             <img
-              src="/src/assets/2025-flyer.jpg"
+              src="/assets/2025-flyer.jpg"
               alt="VEX Robotics Summer Camps 2025"
               className="w-full rounded-xl shadow-lg"
               loading="lazy"
@@ -160,7 +160,7 @@ const Summer2025 = () => {
             {/* Registration Button */}
             <div className="text-center">
               <a
-                href="https://forms.gle/your-google-form-link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf8_aqevTA90_16qYMGTBI7YaQVygCGLmBZjiTQ-dptbs31xw/viewform"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-[#0BA2D9] hover:bg-blue-700 transition-colors duration-200"

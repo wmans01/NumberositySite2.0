@@ -16,14 +16,14 @@ const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    "/src/assets/slideshow/banners.jpg",
-    "/src/assets/slideshow/cnc.jpg",
-    "/src/assets/slideshow/dino.jpg",
-    "/src/assets/slideshow/drillpress.jpg",
-    "/src/assets/slideshow/laser.jpg",
-    "/src/assets/slideshow/plate.jpg",
-    "/src/assets/slideshow/trophies.jpg",
-    "/src/assets/slideshow/wires.jpg",
+    "/assets/slideshow/banners.jpg",
+    "/assets/slideshow/cnc.jpg",
+    "/assets/slideshow/dino.jpg",
+    "/assets/slideshow/drillpress.jpg",
+    "/assets/slideshow/laser.jpg",
+    "/assets/slideshow/plate.jpg",
+    "/assets/slideshow/trophies.jpg",
+    "/assets/slideshow/wires.jpg",
   ];
 
   useEffect(() => {

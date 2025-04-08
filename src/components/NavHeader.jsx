@@ -32,7 +32,7 @@ const NavHeader = ({ home }) => {
         <img
           border="0"
           alt="Numberosity Logo"
-          src="/src/assets/NumberosityLogo.svg"
+          src="/assets/NumberosityLogo.svg"
           width={50}
           height={50}
         />

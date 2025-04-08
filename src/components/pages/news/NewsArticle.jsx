@@ -37,7 +37,7 @@ const NewsArticle = () => {
 
 "8889A has been an amazing inspiration to many and a great member of the VEX community."
 — madisoglrobotics`,
-      coverImage: "/src/assets/news/google-award-cover.png",
+      coverImage: "/assets/news/google-award-cover.png",
       date: "March 16, 2025",
       content: `These comments, shared on 8889A's YouTube channel, reflect something deeper than trophies or rankings—they're a testament to the team's lasting impact on the VEX community.
 
@@ -67,7 +67,7 @@ For 8889A, VEX isn't just an extracurricular. It's a platform to lead, inspire, 
     "clean-sweep": {
       title: "A Clean Sweep! 8889 Teams Punch Tickets to World Championship",
       description: "All our teams qualify for the World Championship.",
-      coverImage: "/src/assets/news/clean-sweep-cover.jpg",
+      coverImage: "/assets/news/clean-sweep-cover.jpg",
       date: "February 15, 2025",
       content: `📅 February 15, 2025 – 8889C Qualifies for the VEX World Championship!
 We're thrilled to announce that 8889C has officially qualified for the VEX World Championship! With an impressive 98% skills score, our youngest team has proven themselves among the best—earning this honor in their very first year of VEX. What an incredible debut!
@@ -86,17 +86,17 @@ Let's give a huge round of applause to every single team for their accomplishmen
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/clean-sweep-1.jpg",
+          url: "/assets/news/clean-sweep-1.jpg",
           caption: "8889X Build award",
         },
         {
           type: "image",
-          url: "/src/assets/news/clean-sweep-2.jpg",
+          url: "/assets/news/clean-sweep-2.jpg",
           caption: "8889A at the skills field",
         },
         {
           type: "image",
-          url: "/src/assets/news/clean-sweep-3.jpg",
+          url: "/assets/news/clean-sweep-3.jpg",
           caption: "8889A Skills champion",
         },
       ],
@@ -105,7 +105,7 @@ Let's give a huge round of applause to every single team for their accomplishmen
       title: "Hard Work Pays Off at the LAUNCH Signature Event!",
       description:
         "From Lexington, MA to Cleveland, OH—two cities, the same endless snowfall. But no amount of snow could cool down our fire for robotics!",
-      coverImage: "/src/assets/news/launch-sig-cover.jpg",
+      coverImage: "/assets/news/launch-sig-cover.jpg",
       date: "February 1, 2025",
       content: `This year, three Numberosity Academy teams—8889A, 8889B, and 8889S—traveled to Cleveland, Ohio to compete at the LAUNCH Signature Event. Last season, only 8889A attended, making an unforgettable run as Tournament Finalists alongside powerhouse team Boogie Woogie, who held the Skills World Record at the time.
 
@@ -132,47 +132,47 @@ With LAUNCH behind us, all teams are fired up to continue their VEX journey—ai
         },
         {
           type: "image",
-          url: "/src/assets/news/launch-sig-1.jpg",
+          url: "/assets/news/launch-sig-1.jpg",
           caption: "Tournament Champions",
         },
         {
           type: "image",
-          url: "/src/assets/news/launch-sig-2.jpg",
+          url: "/assets/news/launch-sig-2.jpg",
           caption: "Skills Champion",
         },
         {
           type: "image",
-          url: "/src/assets/news/launch-sig-3.jpg",
+          url: "/assets/news/launch-sig-3.jpg",
           caption: "8889S at the airport",
         },
         {
           type: "image",
-          url: "/src/assets/news/launch-sig-4.jpg",
+          url: "/assets/news/launch-sig-4.jpg",
           caption: "8889S at the practice field",
         },
         {
           type: "image",
-          url: "/src/assets/news/launch-sig-5.jpg",
+          url: "/assets/news/launch-sig-5.jpg",
           caption: "8889B at the pits",
         },
         {
           type: "image",
-          url: "/src/assets/news/launch-sig-6.jpg",
+          url: "/assets/news/launch-sig-6.jpg",
           caption: "8889S at the competition field",
         },
         {
           type: "image",
-          url: "/src/assets/news/launch-sig-7.jpg",
+          url: "/assets/news/launch-sig-7.jpg",
           caption: "Alliance selection",
         },
         {
           type: "image",
-          url: "/src/assets/news/launch-sig-8.jpg",
+          url: "/assets/news/launch-sig-8.jpg",
           caption: "8889S getting ready for a match",
         },
         {
           type: "image",
-          url: "/src/assets/news/launch-sig-9.jpg",
+          url: "/assets/news/launch-sig-9.jpg",
           caption: "8889B at the competition field",
         },
       ],
@@ -180,7 +180,7 @@ With LAUNCH behind us, all teams are fired up to continue their VEX journey—ai
     "gateway-to-west": {
       title: "8889C 98%'s 1st Signature Event – Gateway to the West!",
       description: "Team 8889C attends their first signature event.",
-      coverImage: "/src/assets/news/gateway-to-west-cover.jpg",
+      coverImage: "/assets/news/gateway-to-west-cover.jpg",
       date: "January 25, 2025",
       content: `Our youngest middle school team, 8889C, kicked off their Signature Event journey in 2025. This was their first time traveling far from home to compete. The youngest team member, Mason, is only in 6th grade, yet the team held their own against experienced competitors throughout the intense two-day schedule.
 
@@ -188,32 +188,32 @@ In the qualification rounds, 8889C ranked #24 with 6 wins and 4 losses. They wer
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/gateway-to-west-1.jpg",
+          url: "/assets/news/gateway-to-west-1.jpg",
           caption: "8889C at the competition field",
         },
         {
           type: "image",
-          url: "/src/assets/news/gateway-to-west-2.jpg",
+          url: "/assets/news/gateway-to-west-2.jpg",
           caption: "8889C working on their robot",
         },
         {
           type: "image",
-          url: "/src/assets/news/gateway-to-west-3.jpg",
+          url: "/assets/news/gateway-to-west-3.jpg",
           caption: "8889C getting interviewed",
         },
         {
           type: "image",
-          url: "/src/assets/news/gateway-to-west-4.jpg",
+          url: "/assets/news/gateway-to-west-4.jpg",
           caption: "8889C at the airport",
         },
         {
           type: "image",
-          url: "/src/assets/news/gateway-to-west-5.jpg",
+          url: "/assets/news/gateway-to-west-5.jpg",
           caption: "Logan coding on the practice field",
         },
         {
           type: "image",
-          url: "/src/assets/news/gateway-to-west-6.jpg",
+          url: "/assets/news/gateway-to-west-6.jpg",
           caption: "Opening ceremony",
         },
       ],
@@ -222,7 +222,7 @@ In the qualification rounds, 8889C ranked #24 with 6 wins and 4 losses. They wer
       title: "Killingly Robotics HS 2nd Annual V5RC – High Stakes Qualifier",
       description:
         "8889A and 8889C compete in the high-stakes qualifier at Killingly Robotics.",
-      coverImage: "/src/assets/news/killingly-robotics-cover.jpg",
+      coverImage: "/assets/news/killingly-robotics-cover.jpg",
       date: "January 11, 2025",
       content: `January 11, 2025 – At the only event we attended in Connecticut this season, Numberosity Academy made it count—bringing home the Triple Crown!
 
@@ -238,17 +238,17 @@ It was a day full of teamwork, high-level performance, and unforgettable moments
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/killingly-robotics-1.jpg",
+          url: "/assets/news/killingly-robotics-1.jpg",
           caption: "Skills Champion",
         },
         {
           type: "image",
-          url: "/src/assets/news/killingly-robotics-2.jpg",
+          url: "/assets/news/killingly-robotics-2.jpg",
           caption: "8889A and their alliance partner 4478B Blizzard",
         },
         {
           type: "image",
-          url: "/src/assets/news/killingly-robotics-3.jpg",
+          url: "/assets/news/killingly-robotics-3.jpg",
           caption: "Excellence Award",
         },
       ],
@@ -257,7 +257,7 @@ It was a day full of teamwork, high-level performance, and unforgettable moments
       title: "Continuing the Journey: RoboBridge Section 4",
       description:
         "The fourth session of RoboBridge continues to make an impact in our community.",
-      coverImage: "/src/assets/news/robobridge4-cover.png",
+      coverImage: "/assets/news/robobridge4-cover.png",
       date: "January 10, 2025",
       content: `RoboBridge Reaches Session #4!
 We're excited to share that the RoboBridge program has officially reached its fourth session—a major milestone as we plan for its long-term success and growth!
@@ -268,27 +268,27 @@ We're incredibly proud of the progress so far and can't wait to see how RoboBrid
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/robobridge4-1.jpg",
+          url: "/assets/news/robobridge4-1.jpg",
           caption: "Jeremy",
         },
         {
           type: "image",
-          url: "/src/assets/news/robobridge4-2.jpg",
+          url: "/assets/news/robobridge4-2.jpg",
           caption: "The field",
         },
         {
           type: "image",
-          url: "/src/assets/news/robobridge4-3.jpg",
+          url: "/assets/news/robobridge4-3.jpg",
           caption: "Building a robot",
         },
         {
           type: "image",
-          url: "/src/assets/news/robobridge4-4.jpg",
+          url: "/assets/news/robobridge4-4.jpg",
           caption: "Luke",
         },
         {
           type: "image",
-          url: "/src/assets/news/robobridge4-5.jpg",
+          url: "/assets/news/robobridge4-5.jpg",
           caption: "Jason and Ryan",
         },
       ],
@@ -297,7 +297,7 @@ We're incredibly proud of the progress so far and can't wait to see how RoboBrid
       title: "8889 Teams Face Off in the Finals!",
       description:
         "An exciting showdown between our teams in the championship finals.",
-      coverImage: "/src/assets/news/teams-face-off-cover.jpg",
+      coverImage: "/assets/news/teams-face-off-cover.jpg",
       date: "January 4, 2025",
       content: `📅 January 4, 2025 – Three of our 8889 teams kicked off the new year with an unforgettable showing at the High Stakes Winter Classic at Mashpee Middle High School. The day was filled with strategy, excitement, and huge accomplishments for all involved!
 
@@ -317,12 +317,12 @@ Here's to the incredible achievements of our teams—and the exciting journey ah
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/teams-face-off-1.jpg",
+          url: "/assets/news/teams-face-off-1.jpg",
           caption: "8889B and 8889S",
         },
         {
           type: "image",
-          url: "/src/assets/news/teams-face-off-2.jpg",
+          url: "/assets/news/teams-face-off-2.jpg",
           caption: "8889S Excellence Award",
         },
       ],
@@ -331,7 +331,7 @@ Here's to the incredible achievements of our teams—and the exciting journey ah
       title: "Building Holiday Joy: RoboBridge Christmas Special",
       description:
         "A special holiday edition of RoboBridge brings joy and learning to our students.",
-      coverImage: "/src/assets/news/robobridge-christmas-cover.jpg",
+      coverImage: "/assets/news/robobridge-christmas-cover.jpg",
       date: "December 23, 2024",
       content: `Jingle bells, jingle bells, jingle all the way… Christmas cheer was in the air as RoboBridge celebrated its third session with a holiday twist that made it extra meaningful and memorable!
 
@@ -349,12 +349,12 @@ We look forward to many more sessions of connection, discovery, and heart. Here'
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/robobridge-christmas-1.png",
+          url: "/assets/news/robobridge-christmas-1.png",
           caption: "Cluster 1",
         },
         {
           type: "image",
-          url: "/src/assets/news/robobridge-christmas-2.png",
+          url: "/assets/news/robobridge-christmas-2.png",
           caption: "Cluster 2",
         },
       ],
@@ -363,7 +363,7 @@ We look forward to many more sessions of connection, discovery, and heart. Here'
       title: "The RiverBots VRC High Stakes Signature Event",
       description:
         "Our teams compete in the prestigious RiverBots VRC Signature Event.",
-      coverImage: "/src/assets/news/riverbots-cover.jpg",
+      coverImage: "/assets/news/riverbots-cover.jpg",
       date: "December 8, 2024",
       content: `The RiverBots III V5RC High Stakes Signature Event marked the third national Signature Event that 8889A attended during the 2023–2025 VEX season—and what a memorable experience it was!
 
@@ -388,17 +388,17 @@ Stay tuned—8889A has more to come. 🚀`,
         },
         {
           type: "image",
-          url: "/src/assets/news/riverbots-1.jpg",
+          url: "/assets/news/riverbots-1.jpg",
           caption: "8889A watching skills matches",
         },
         {
           type: "image",
-          url: "/src/assets/news/riverbots-2.jpg",
+          url: "/assets/news/riverbots-2.jpg",
           caption: "Peter talking to Purdue UniversityBLRS team members",
         },
         {
           type: "image",
-          url: "/src/assets/news/riverbots-3.jpg",
+          url: "/assets/news/riverbots-3.jpg",
           caption: "team picture",
         },
         {
@@ -413,7 +413,7 @@ Stay tuned—8889A has more to come. 🚀`,
         "RoboBridge - Empowering Special Needs Students Through STEAM and Robotics (Session 2)",
       description:
         "The second session of RoboBridge continues to make an impact in our community.",
-      coverImage: "/src/assets/news/robobridge2-cover.jpg",
+      coverImage: "/assets/news/robobridge2-cover.jpg",
       date: "November 15, 2024",
       content: `In our second session of the RoboBridge program, we made a purposeful shift from the variety of STEAM games offered in Session 1—where students explored different subjects to discover their interests—to a more focused approach using VEX GO learning kits. This transition allowed us to dive deeper into robotics and center our learning around the engaging and interactive VEX GO game.
 
@@ -427,7 +427,7 @@ Looking ahead, we're thrilled to announce our third RoboBridge session on Decemb
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/robobridge2-1.jpg",
+          url: "/assets/news/robobridge2-1.jpg",
           caption: "Robobridge 2",
         },
       ],
@@ -436,7 +436,7 @@ Looking ahead, we're thrilled to announce our third RoboBridge session on Decemb
       title: "Three 8889 Teams Shine at Regional and National Competitions",
       description:
         "Our teams achieve remarkable success at both regional and national levels.",
-      coverImage: "/src/assets/news/regional-nationals-cover.jpg",
+      coverImage: "/assets/news/regional-nationals-cover.jpg",
       date: "November 30, 2024",
       content: `Big Win Last Year, Big Lesson This Year — Team 8889A
 After being unexpectedly removed from the WAVE waitlist just days before the event, Team 8889A dove straight into preparation for their debut at a Signature Event. Despite limited time to fine-tune their robot, they debuted a brand-new design and a fresh autonomous routine, pushing the boundaries of their performance.
@@ -463,42 +463,42 @@ Keep building, keep learning, and keep having fun! We're just getting started!`,
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/regional-nationals-1.jpg",
+          url: "/assets/news/regional-nationals-1.jpg",
           caption: "8889C getting inspected",
         },
         {
           type: "image",
-          url: "/src/assets/news/regional-nationals-2.jpg",
+          url: "/assets/news/regional-nationals-2.jpg",
           caption: "8889C on the queueing table",
         },
         {
           type: "image",
-          url: "/src/assets/news/regional-nationals-3.jpg",
+          url: "/assets/news/regional-nationals-3.jpg",
           caption: "8889C at the practice field",
         },
         {
           type: "image",
-          url: "/src/assets/news/regional-nationals-4.jpg",
+          url: "/assets/news/regional-nationals-4.jpg",
           caption: "8889B at the pits",
         },
         {
           type: "image",
-          url: "/src/assets/news/regional-nationals-5.jpg",
+          url: "/assets/news/regional-nationals-5.jpg",
           caption: "8889B winning design award",
         },
         {
           type: "image",
-          url: "/src/assets/news/regional-nationals-6.jpg",
+          url: "/assets/news/regional-nationals-6.jpg",
           caption: "8889A's robot at the WPI venue",
         },
         {
           type: "image",
-          url: "/src/assets/news/regional-nationals-7.jpg",
+          url: "/assets/news/regional-nationals-7.jpg",
           caption: "8889A at the practice field",
         },
         {
           type: "image",
-          url: "/src/assets/news/regional-nationals-8.jpg",
+          url: "/assets/news/regional-nationals-8.jpg",
           caption: "The practice fields",
         },
       ],
@@ -508,7 +508,7 @@ Keep building, keep learning, and keep having fun! We're just getting started!`,
         "Numberosity Academy's Teams Shine at North Andover VEX Robotics Event",
       description:
         "Our teams demonstrate excellence at the North Andover VEX Robotics competition.",
-      coverImage: "/src/assets/news/north-andover-cover.jpg",
+      coverImage: "/assets/news/north-andover-cover.jpg",
       date: "November 23, 2024",
       content: `Numberosity Academy's VEX Robotics teams recently participated in a pivotal competition at North Andover High School, a qualifier for the Massachusetts Regional Event, leading to the prestigious VEX World Championship in Dallas, TX, in April 2025.
 
@@ -529,12 +529,12 @@ Congratulations to all our team members for their remarkable achievements! With 
         },
         {
           type: "image",
-          url: "/src/assets/news/north-andover-2.jpg",
+          url: "/assets/news/north-andover-2.jpg",
           caption: "8889A Excellence Award",
         },
         {
           type: "image",
-          url: "/src/assets/news/north-andover-3.jpg",
+          url: "/assets/news/north-andover-3.jpg",
           caption: "8889B with their certificate",
         },
       ],
@@ -543,7 +543,7 @@ Congratulations to all our team members for their remarkable achievements! With 
       title: "Belmont Hill V5RC Blended High Stakes Tournament",
       description:
         "Our teams compete in the high-stakes tournament at Belmont Hill.",
-      coverImage: "/src/assets/news/belmont-hill-cover.jpg",
+      coverImage: "/assets/news/belmont-hill-cover.jpg",
       date: "November 2, 2024",
       content: `Congratulations to Team 8889B on their impressive victory at the Belmont Hill V5RC Blended High Stakes Tournament on November 2nd, 2024! This remarkable win not only secured the Tournament Champion title but also made 8889B one of the first teams in Massachusetts to qualify for the Regional Championship.
 
@@ -553,12 +553,12 @@ Their dedication and teamwork continue to pave the way for more success, and we 
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/belmont-hill-1.jpg",
+          url: "/assets/news/belmont-hill-1.jpg",
           caption: "8889B's robot with their alliance partner, 2602E",
         },
         {
           type: "image",
-          url: "/src/assets/news/belmont-hill-2.jpg",
+          url: "/assets/news/belmont-hill-2.jpg",
           caption: "Giant robosaurus",
         },
       ],
@@ -568,7 +568,7 @@ Their dedication and teamwork continue to pave the way for more success, and we 
         "RoboBridge - Empowering Special Needs Students Through STEAM and Robotics (Session 1)",
       description:
         "The first session of RoboBridge brings robotics education to special needs students.",
-      coverImage: "/src/assets/news/robobridge1-cover.jpg",
+      coverImage: "/assets/news/robobridge1-cover.jpg",
       date: "October 25, 2024",
       content: `On Saturday, November 9th, 2024, we successfully hosted the inaugural session of RoboBridge, our biweekly program designed to provide adaptive robotics education and creative activities for students with special needs. The event was attended by 10 students, each paired with a dedicated volunteer teacher for one-on-one guidance, making it a truly personalized learning experience.
 Activities and Stations
@@ -604,7 +604,7 @@ A heartfelt thank you to our 10 dedicated volunteers, whose efforts and compassi
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/robobridge1-1.jpg",
+          url: "/assets/news/robobridge1-1.jpg",
           caption: "Robobridge 1",
         },
       ],
@@ -613,7 +613,7 @@ A heartfelt thank you to our 10 dedicated volunteers, whose efforts and compassi
       title: "MCC Robotics VEX V5 Robotics Competition",
       description:
         "Our teams showcase their skills at the MCC Robotics VEX V5 competition.",
-      coverImage: "/src/assets/news/mcc-robotics-cover.jpg",
+      coverImage: "/assets/news/mcc-robotics-cover.jpg",
       date: "October 19, 2024",
       content: `Team 8889A Triumphs at the MCC Robotics VEX V5 Kickoff
 
@@ -629,7 +629,7 @@ As they look ahead, the team is excited to build on this experience and continue
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/mcc-robotics-1.jpg",
+          url: "/assets/news/mcc-robotics-1.jpg",
           caption: "8889A with their alliance partner, 74947K Fenix – Karma",
         },
       ],
@@ -638,7 +638,7 @@ As they look ahead, the team is excited to build on this experience and continue
       title: "Mass Robotics Block Party",
       description:
         "Join us at the Mass Robotics Block Party for an exciting showcase of robotics innovation.",
-      coverImage: "/src/assets/news/mass-robotics-block-cover.jpg",
+      coverImage: "/assets/news/mass-robotics-block-cover.jpg",
       date: "September 28, 2024",
       content: `Numberosity Robotics Teams Shine at MassRobotics Block Party
 
@@ -656,52 +656,52 @@ It was an unforgettable experience, and we're excited to see where this journey 
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-1.jpg",
+          url: "/assets/news/mass-robotics-block-1.jpg",
           caption: "8889A with their robot in the parade",
         },
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-2.jpg",
+          url: "/assets/news/mass-robotics-block-2.jpg",
           caption: "Numberosity's booth",
         },
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-3.jpg",
+          url: "/assets/news/mass-robotics-block-3.jpg",
           caption: "People trying out the robots",
         },
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-4.jpg",
+          url: "/assets/news/mass-robotics-block-4.jpg",
           caption: "Spot the robot dog",
         },
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-5.jpg",
+          url: "/assets/news/mass-robotics-block-5.jpg",
           caption: "FRC Robots",
         },
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-6.jpg",
+          url: "/assets/news/mass-robotics-block-6.jpg",
           caption: "Representing VEX",
         },
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-7.jpg",
+          url: "/assets/news/mass-robotics-block-7.jpg",
           caption: "Passserbys checking out the robots",
         },
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-8.jpg",
+          url: "/assets/news/mass-robotics-block-8.jpg",
           caption: "8889B",
         },
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-9.jpg",
+          url: "/assets/news/mass-robotics-block-9.jpg",
           caption: "The event",
         },
         {
           type: "image",
-          url: "/src/assets/news/mass-robotics-block-10.jpg",
+          url: "/assets/news/mass-robotics-block-10.jpg",
           caption: "Robots on the field",
         },
       ],
@@ -710,7 +710,7 @@ It was an unforgettable experience, and we're excited to see where this journey 
       title: "The Lobstah Bowl Signature Event @Maine",
       description:
         "Our teams compete in the prestigious Lobstah Bowl Signature Event in Maine.",
-      coverImage: "/src/assets/news/lobstah-bowl-cover.jpg",
+      coverImage: "/assets/news/lobstah-bowl-cover.jpg",
       date: "September 12, 2024",
       content: `On September 12th, Numberosity Robotics teams 8889A and 8889B participated in the VEX Lobstah Bowl Signature Event, held on the campus of the University of Maine in Orono. Our teams dedicated extensive time and effort in preparation for this challenging competition, which brought together numerous teams, including participants from Canada.
 
@@ -741,27 +741,27 @@ A big thanks to all our alliances, volunteers, event staff, and everyone else in
         },
         {
           type: "image",
-          url: "/src/assets/news/lobstah-bowl-1.jpg",
+          url: "/assets/news/lobstah-bowl-1.jpg",
           caption: "8889A Excellence Award",
         },
         {
           type: "image",
-          url: "/src/assets/news/lobstah-bowl-2.jpg",
+          url: "/assets/news/lobstah-bowl-2.jpg",
           caption: "8889A with their alliance partner, 8829C Cat-alyst",
         },
         {
           type: "image",
-          url: "/src/assets/news/lobstah-bowl-3.jpg",
+          url: "/assets/news/lobstah-bowl-3.jpg",
           caption: "8889A Skills Champion",
         },
         {
           type: "image",
-          url: "/src/assets/news/lobstah-bowl-4.jpg",
+          url: "/assets/news/lobstah-bowl-4.jpg",
           caption: "Match fields",
         },
         {
           type: "image",
-          url: "/src/assets/news/lobstah-bowl-5.jpg",
+          url: "/assets/news/lobstah-bowl-5.jpg",
           caption: "8889A at the pits",
         },
       ],
@@ -771,7 +771,7 @@ A big thanks to all our alliances, volunteers, event staff, and everyone else in
         "From Four Students to Four Teams: Expanding Our VEX Robotics Program",
       description:
         "Our journey from a small group of four students to a thriving program with four competitive teams.",
-      coverImage: "/src/assets/news/team-expansion-cover.jpg",
+      coverImage: "/assets/news/team-expansion-cover.jpg",
       date: "September 1, 2024",
       content: `What began with just four passionate middle school students has grown into something much bigger. Over the past two years, our dedication and commitment have led to the creation of our very own nonprofit organization. We are excited to announce the expansion of our program to four VEX Robotics teams: 8889A, 8889B, 8889C, and 8889X.
 
@@ -787,22 +787,22 @@ Stay tuned for more updates and opportunities to get involved!`,
       gallery: [
         {
           type: "image",
-          url: "/src/assets/news/team-expansion-1.jpg",
+          url: "/assets/news/team-expansion-1.jpg",
           caption: "Image Cluster 1",
         },
         {
           type: "image",
-          url: "/src/assets/news/team-expansion-2.jpg",
+          url: "/assets/news/team-expansion-2.jpg",
           caption: "Image Cluster 2",
         },
         {
           type: "image",
-          url: "/src/assets/news/team-expansion-3.jpg",
+          url: "/assets/news/team-expansion-3.jpg",
           caption: "Image Cluster 3",
         },
         {
           type: "image",
-          url: "/src/assets/news/team-expansion-4.jpg",
+          url: "/assets/news/team-expansion-4.jpg",
           caption: "Image Cluster 4",
         },
       ],
@@ -810,7 +810,7 @@ Stay tuned for more updates and opportunities to get involved!`,
     "lexington-discovery-day": {
       title: "Lexington Discovery Day",
       description: "Our teams participate in the Lexington Discovery Day.",
-      coverImage: "/src/assets/news/lexington-discovery-day-cover.jpg",
+      coverImage: "/assets/news/lexington-discovery-day-cover.jpg",
       date: "May 25, 2024",
       content: `The streets of Lexington came alive on Saturday, May 25, 2024, as residents and visitors gathered for the annual Lexington Town Discovery Day. On this celebratory day, our robotics teams proudly showcased their achievements, demonstrated cutting-edge robot designs, and shared the spirit of innovation with the local community.
 
@@ -830,47 +830,47 @@ From educational demonstrations to inspiring conversations, the event was filled
         },
         {
           type: "image",
-          url: "/src/assets/news/lexington-discovery-day-1.jpg",
+          url: "/assets/news/lexington-discovery-day-1.jpg",
           caption: "Peter helping a child with the controls",
         },
         {
           type: "image",
-          url: "/src/assets/news/lexington-discovery-day-2.jpg",
+          url: "/assets/news/lexington-discovery-day-2.jpg",
           caption: "Jason helping a child with the controls",
         },
         {
           type: "image",
-          url: "/src/assets/news/lexington-discovery-day-3.jpg",
+          url: "/assets/news/lexington-discovery-day-3.jpg",
           caption: "The booth",
         },
         {
           type: "image",
-          url: "/src/assets/news/lexington-discovery-day-4.jpg",
+          url: "/assets/news/lexington-discovery-day-4.jpg",
           caption: "People coming to look",
         },
         {
           type: "image",
-          url: "/src/assets/news/lexington-discovery-day-5.jpg",
+          url: "/assets/news/lexington-discovery-day-5.jpg",
           caption: "Booth setup",
         },
         {
           type: "image",
-          url: "/src/assets/news/lexington-discovery-day-6.jpg",
+          url: "/assets/news/lexington-discovery-day-6.jpg",
           caption: "Charles and Jason",
         },
         {
           type: "image",
-          url: "/src/assets/news/lexington-discovery-day-7.jpg",
+          url: "/assets/news/lexington-discovery-day-7.jpg",
           caption: "Peter",
         },
         {
           type: "image",
-          url: "/src/assets/news/lexington-discovery-day-8.jpg",
+          url: "/assets/news/lexington-discovery-day-8.jpg",
           caption: "Ryan",
         },
         {
           type: "image",
-          url: "/src/assets/news/lexington-discovery-day-9.jpg",
+          url: "/assets/news/lexington-discovery-day-9.jpg",
           caption: "Jeremy",
         },
       ],

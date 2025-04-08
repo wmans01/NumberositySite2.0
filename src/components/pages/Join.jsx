@@ -119,7 +119,7 @@ const Join = () => {
               <div className="md:w-1/2">
                 <div className="relative h-[600px] rounded-xl overflow-hidden shadow-lg">
                   <img
-                    src="/src/assets/2024-volunteers.jpg"
+                    src="/assets/2024-volunteers.jpg"
                     alt="Volunteers working with students"
                     className="w-full h-full object-cover"
                   />
@@ -280,7 +280,7 @@ const Join = () => {
               <div className="md:w-1/2 flex justify-center">
                 <div className="bg-white p-4 rounded-lg shadow-lg">
                   <img
-                    src="/src/assets/current_weChat_QR.png"
+                    src="/assets/current_weChat_QR.png"
                     alt="WeChat QR Code"
                     className="w-64 h-64 object-contain"
                   />

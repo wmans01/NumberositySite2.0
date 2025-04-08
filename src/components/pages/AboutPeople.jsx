@@ -137,7 +137,7 @@ const AboutPeople = () => {
       role: "Co-Founder and President",
       description:
         "A junior at Lexington High School with 6+ years of VEX Robotics experience. Passionate about engineering and robotics, he serves as Vice President of New England Robotics Association, teaching CAD/3D modeling. A USACO Gold qualifier proficient in Python, C++, and Java, he created this website and enjoys mentoring students.",
-      image: "/src/assets/about/jeremy.jpg",
+      image: "/assets/about/jeremy.jpg",
       isJeremy: true,
     },
     {
@@ -145,28 +145,28 @@ const AboutPeople = () => {
       role: "Co-Founder and Software Coach",
       description:
         "A junior at Lexington High School with 3.5 years of VEX Robotics experience, specializing in programming. Passionate about mathematics and robotics, he serves as Vice President of New England Robotics Association. A 5x AIME qualifier and USAJMO/USAMO qualifier, he enjoys teaching programming and mentoring students.",
-      image: "/src/assets/about/peter.jpg",
+      image: "/assets/about/peter.jpg",
     },
     {
       name: "Charles Tang",
       role: "Recruiting and Fundraising Ambassador",
       description:
         "A freshman at Lexington High School with extensive VEX experience since fourth grade. A three-time regional champion and Worlds qualifier, he previously captained Team 10102Z and teaches robotics camps. Beyond robotics, he's a competitive figure skater and has contributed to popular Roblox games.",
-      image: "/src/assets/about/charles.jpg",
+      image: "/assets/about/charles.jpg",
     },
     {
       name: "Ryan Zhang",
       role: "Summer Camp Software Coach",
       description:
         "A sophomore at Lexington High School, Ryan began his robotics journey with FLL and transitioned to VEX in 2022 as a programmer and data analyst. A Life Scout working towards Eagle, he's passionate about community service and cross-country running. Proficient in Java, C++, and Python, he enjoys teaching robotics fundamentals and tutoring math.",
-      image: "/src/assets/about/ryan.png",
+      image: "/assets/about/ryan.png",
     },
     {
       name: "Allison Xu",
       role: "Summer Camp Coordinator and Coach",
       description:
         "A junior at Lexington High School, Allison is passionate about education and robotics. She organizes and leads summer camp activities, creating engaging learning experiences and fostering students' interest in STEM through interactive projects.",
-      image: "/src/assets/about/allison.jpg",
+      image: "/assets/about/allison.jpg",
       isAllison: true,
     },
     {
@@ -174,21 +174,21 @@ const AboutPeople = () => {
       role: "Media Director",
       description:
         "A sophomore at the Academy for Science and Design, Caillou brings 4 years of filmmaking experience to the team. As Media Director, he uses his passion for videography to enhance the team's digital presence and document their achievements through engaging content creation.",
-      image: "/src/assets/about/caillou.png",
+      image: "/assets/about/caillou.png",
     },
     {
       name: "Abinav Kumar",
       role: "Summer Camp Software Coach",
       description:
         "A freshman at Andover High School, Abinav is passionate about programming and teaching. He helps students develop their software development skills and enjoys making programming concepts fun and accessible through interactive lessons.",
-      image: "/src/assets/about/abinav.jpg",
+      image: "/assets/about/abinav.jpg",
     },
     {
       name: "Athena Wang",
       role: "Advisor, Learning Program",
       description:
         "Athena is a freshman at Princeton University. She started the Numberosity Learning Program Branch, an online STEM learning platform for underprivileged students in 2022, which evolved into the current Numberosity Academy. She loves sharing her STEM knowledge and experiences with others and is excited to continue expanding the outreach of her program!",
-      image: "/src/assets/about/athena.jpg",
+      image: "/assets/about/athena.jpg",
     },
   ];
 

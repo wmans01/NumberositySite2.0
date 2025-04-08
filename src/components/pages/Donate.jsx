@@ -38,21 +38,21 @@ const Donate = () => {
 
   const sponsors = [
     {
-      image: "/src/assets/sponsors/prepEDU.png",
+      image: "/assets/sponsors/prepEDU.png",
       name: "PrepEdu Educational Consulting",
       description:
         "Description of Sponsor 1 and their contribution to Numberosity Academy.",
       link: "https://prepedu.org",
     },
     {
-      image: "/src/assets/sponsors/phoenix.png",
+      image: "/assets/sponsors/phoenix.png",
       name: "Phoenix Real Estate",
       description:
         "Description of Sponsor 2 and their contribution to Numberosity Academy.",
       link: "https://www.prepboston.com/",
     },
     {
-      image: "/src/assets/sponsors/diyiboston.png",
+      image: "/assets/sponsors/diyiboston.png",
       name: "Diyi Boston",
       description:
         "Description of Sponsor 3 and their contribution to Numberosity Academy.",
