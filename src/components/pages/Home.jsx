@@ -48,26 +48,26 @@ const Home = () => {
 
   return (
     <div className="relative">
-      <div className="absolute top-0 left-0 w-full z-10">
+      <div className="absolute top-0 left-0 w-full z-20">
         <HomeNavBar />
       </div>
       <Slideshow />
-      <div className="absolute top-[50vh] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full z-10">
-        <h1 className="font-['Roboto'] font-bold text-white text-6xl text-center transition-all duration-300 ease-in-out mb-3">
+      <div className="absolute top-[50vh] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full z-10 px-4 sm:px-6 lg:px-8">
+        <h1 className="font-['Roboto'] font-bold text-white text-4xl sm:text-5xl md:text-6xl text-center transition-all duration-300 ease-in-out mb-3">
           Numberosity Academy
         </h1>
-        <p className="font-['Roboto'] text-white text-sm sm:text-base md:text-lg text-center max-w-2xl mx-auto mb-3.5">
+        <p className="font-['Roboto'] text-white text-xs sm:text-sm md:text-base lg:text-lg text-center max-w-2xl mx-auto mb-3.5 px-2">
           A 501(c)(3) non-profit based in Lexington, MA founded in 2023
           dedicated to making STEM more accessible to everyone.
         </p>
-        <div className="flex justify-center gap-6 mb-4">
+        <div className="flex justify-center gap-4 sm:gap-6 mb-4">
           <a
             href="https://www.youtube.com/@vex8889A"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-blue-300 transition-colors duration-300"
           >
-            <FaYoutube size={32} />
+            <FaYoutube className="w-6 h-6 sm:w-8 sm:h-8" />
           </a>
           <a
             href="https://www.instagram.com/vex8889a/"
@@ -75,17 +75,17 @@ const Home = () => {
             rel="noopener noreferrer"
             className="text-white hover:text-blue-300 transition-colors duration-300"
           >
-            <FaInstagram size={32} />
+            <FaInstagram className="w-6 h-6 sm:w-8 sm:h-8" />
           </a>
           <a
             href="mailto:vex8889a@gmail.com"
             className="text-white hover:text-blue-300 transition-colors duration-300"
           >
-            <FaEnvelope size={32} />
+            <FaEnvelope className="w-6 h-6 sm:w-8 sm:h-8" />
           </a>
         </div>
         <div className="flex justify-center mt-1">
-          <BiChevronDown className="text-white bounce" size={32} />
+          <BiChevronDown className="text-white bounce w-6 h-6 sm:w-8 sm:h-8" />
         </div>
       </div>
       <div className="relative bg-white">
