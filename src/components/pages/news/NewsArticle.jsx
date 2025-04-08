@@ -875,6 +875,26 @@ From educational demonstrations to inspiring conversations, the event was filled
         },
       ],
     },
+
+    "robolight-1": {
+      title: "ROBOlight-Community Robo Event Series 1",
+      description: "Our teams hosted a robotics showcase at the Lexington Community Center.",
+      coverImage: "/news/robolight-1-cover.jpg",
+      date: "March 30, 2024",
+      content: `Numberosity Academy successfully hosted their first community event at the Lexington Community Center on March 30, 2024. The event was aimed at introducing VEX Robotics to robot enthusiasts and families interested in learning more about VEX in Lexington and nearby towns. Team Members from 8889A shared their insights into VEX, their team’s history, and experiences. The event featured a live demonstration of their robot, engaging hands-on driving challenges, and a Q&A session. With over 100 attendees, including many enthusiastic young kids, the event was a great success, sparking interest and engagement in VEX Robotics.`,
+      gallery: [
+        {
+          type: "image",
+          url: "/news/robolight-1-1.jpg",
+          caption: "Peter teaching",
+        },
+        {
+          type: "image",
+          url: "/news/robolight-1-2.jpg",
+          caption: "Athena teaching",
+        },
+      ]
+    }
     // Add more articles here...
   };
 

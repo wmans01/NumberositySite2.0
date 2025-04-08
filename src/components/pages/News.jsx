@@ -162,6 +162,13 @@ const News = () => {
       coverImage: "/news/lexington-discovery-day-cover.jpg",
       date: "May 25, 2024",
     },
+    {
+      id: "robolight-1",
+      title: "ROBOlight-Community Robo Event Series 1",
+      description: "Our teams hosted a robotics showcase at the Lexington Community Center.",
+      coverImage: "/news/robolight-1-cover.jpg",
+      date: "March 30, 2024",
+    },
   ];
 
   return (
