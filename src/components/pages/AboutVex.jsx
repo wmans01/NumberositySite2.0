@@ -7,10 +7,13 @@
  * @returns {JSX.Element} The rendered AboutVex component
  */
 
-import React from "react";
+import React, { useEffect } from "react";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const AboutVex = () => {
+  useEffect(() => {
+    document.title = "VEX Robotics | Numberosity Academy";
+  }, []);
   return (
     <div className="flex flex-col min-h-screen bg-white">
       <div className="absolute top-0 left-0 w-full z-10">

@@ -11,6 +11,9 @@ import React, { useState, useEffect } from "react";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const AboutPeople = () => {
+  useEffect(() => {
+    document.title = "Our People | Numberosity Academy";
+  }, []);
   const [stars, setStars] = useState([]);
   const [eyes, setEyes] = useState([]);
   const [isHovered, setIsHovered] = useState(false);

@@ -10,11 +10,15 @@
  * @returns {JSX.Element} The rendered About page
  */
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const About = () => {
+  useEffect(() => {
+    document.title = "About Us | Numberosity Academy";
+  }, []);
+
   const sections = [
     {
       title: "People",

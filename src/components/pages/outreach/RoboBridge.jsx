@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const RoboBridge = () => {
+  useEffect(() => {
+    document.title = "RoboBridge Program | Numberosity Academy";
+  }, []);
+
   return (
     <div className="relative bg-white">
       <div className="absolute top-0 left-0 w-full z-10">

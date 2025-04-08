@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const Summer2025 = () => {
+  useEffect(() => {
+    document.title = "Summer Program 2025 | Numberosity Academy";
+  }, []);
+
   return (
     <div className="relative bg-white">
       <div className="absolute top-0 left-0 w-full z-10">

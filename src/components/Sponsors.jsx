@@ -18,13 +18,14 @@
  */
 
 import React from "react";
+import Image from "./Image";
 
 const SponsorCard = ({ image, name, description, link }) => {
   return (
     <a href={link} target="_blank" rel="noopener noreferrer" className="block">
       <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 border border-gray-200">
         <div className="w-48 h-48 mb-4">
-          <img
+          <Image
             src={image}
             alt={name}
             className="w-full h-full object-contain"

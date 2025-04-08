@@ -11,6 +11,16 @@ const NewsArticle = () => {
     window.scrollTo(0, 0);
   }, [articleId]);
 
+  // Update document title
+  useEffect(() => {
+    const article = articles[articleId];
+    if (article) {
+      document.title = `${article.title} | Numberosity Academy`;
+    } else {
+      document.title = "Article Not Found | Numberosity Academy";
+    }
+  }, [articleId]);
+
   // Helper function to get YouTube thumbnail URL
   const getYouTubeThumbnail = (url) => {
     const videoId = url.split("/embed/")[1];
@@ -794,6 +804,74 @@ Stay tuned for more updates and opportunities to get involved!`,
           type: "image",
           url: "/src/assets/news/team-expansion-4.jpg",
           caption: "Image Cluster 4",
+        },
+      ],
+    },
+    "lexington-discovery-day": {
+      title: "Lexington Discovery Day",
+      description: "Our teams participate in the Lexington Discovery Day.",
+      coverImage: "/src/assets/news/lexington-discovery-day-cover.jpg",
+      date: "May 25, 2024",
+      content: `The streets of Lexington came alive on Saturday, May 25, 2024, as residents and visitors gathered for the annual Lexington Town Discovery Day. On this celebratory day, our robotics teams proudly showcased their achievements, demonstrated cutting-edge robot designs, and shared the spirit of innovation with the local community.
+
+One of the biggest highlights was offering children the chance to interact with our robots—learning how they were built, what they could do, and even taking the controls themselves! It was an engaging, hands-on experience that sparked curiosity and excitement in future engineers of all ages.
+
+From educational demonstrations to inspiring conversations, the event was filled with fun, learning, and meaningful connections. We’re grateful for the opportunity to be part of such a vibrant community event and look forward to continuing to inspire and innovate through robotics.`,
+      gallery: [
+        {
+          type: "video",
+          url: "https://www.youtube.com/embed/2qeOselH9c8",
+          caption: "Video 1",
+        },
+        {
+          type: "video",
+          url: "https://www.youtube.com/embed/2JE18ktjAjA",
+          caption: "Video 2",
+        },
+        {
+          type: "image",
+          url: "/src/assets/news/lexington-discovery-day-1.jpg",
+          caption: "Peter helping a child with the controls",
+        },
+        {
+          type: "image",
+          url: "/src/assets/news/lexington-discovery-day-2.jpg",
+          caption: "Jason helping a child with the controls",
+        },
+        {
+          type: "image",
+          url: "/src/assets/news/lexington-discovery-day-3.jpg",
+          caption: "The booth",
+        },
+        {
+          type: "image",
+          url: "/src/assets/news/lexington-discovery-day-4.jpg",
+          caption: "People coming to look",
+        },
+        {
+          type: "image",
+          url: "/src/assets/news/lexington-discovery-day-5.jpg",
+          caption: "Booth setup",
+        },
+        {
+          type: "image",
+          url: "/src/assets/news/lexington-discovery-day-6.jpg",
+          caption: "Charles and Jason",
+        },
+        {
+          type: "image",
+          url: "/src/assets/news/lexington-discovery-day-7.jpg",
+          caption: "Peter",
+        },
+        {
+          type: "image",
+          url: "/src/assets/news/lexington-discovery-day-8.jpg",
+          caption: "Ryan",
+        },
+        {
+          type: "image",
+          url: "/src/assets/news/lexington-discovery-day-9.jpg",
+          caption: "Jeremy",
         },
       ],
     },

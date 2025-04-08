@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const Teams = () => {
+  useEffect(() => {
+    document.title = "Our Teams | Numberosity Academy";
+  }, []);
+
   const teams = [
     {
       id: 1,

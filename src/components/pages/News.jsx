@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const News = () => {
+  useEffect(() => {
+    document.title = "News & Events | Numberosity Academy";
+  }, []);
+
   const articles = [
     {
       id: "google-award",
@@ -151,6 +155,13 @@ const News = () => {
       coverImage: "/src/assets/news/team-expansion-cover.jpg",
       date: "September 1, 2024",
     },
+    {
+      id: "lexington-discovery-day",
+      title: "Lexington Discovery Day",
+      description: "Our teams participate in the Lexington Discovery Day.",
+      coverImage: "/src/assets/news/lexington-discovery-day-cover.jpg",
+      date: "May 25, 2024",
+    },
   ];
 
   return (
@@ -161,13 +172,16 @@ const News = () => {
       <div className="relative pt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-16">
-            <h1 className="font-['Roboto'] font-bold text-4xl text-gray-900 mb-4">
-              News & Events
+            <h1 className="text-4xl font-bold text-gray-900 text-center mb-12">
+              Latest Updates
             </h1>
-            <p className="text-gray-600 text-lg">
-              Stay updated with our latest achievements, events, and community
-              outreach programs.
-            </p>
+            <div className="bg-blue-50 rounded-xl p-8 border border-blue-100 mb-16">
+              <p className="font-['Roboto'] text-lg text-gray-700 text-center">
+                Stay up to date with our latest achievements, events, and
+                community initiatives. From competition victories to educational
+                outreach, discover how we're making an impact in STEM education.
+              </p>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

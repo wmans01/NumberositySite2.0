@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const TeamPage = () => {
   const { teamId } = useParams();
+
+  useEffect(() => {
+    document.title = "Team Details | Numberosity Academy";
+  }, []);
 
   // Team data - this would be replaced with actual data fetching
   const teamData = {

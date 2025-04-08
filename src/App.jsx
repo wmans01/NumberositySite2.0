@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Home from "/src/components/pages/Home";
 import About from "/src/components/pages/About";
 import AboutPeople from "/src/components/pages/AboutPeople";
@@ -12,7 +12,7 @@ import Outreach from "/src/components/pages/Outreach";
 import News from "/src/components/pages/News";
 import NewsArticle from "/src/components/pages/news/NewsArticle";
 import Join from "/src/components/pages/Join";
-import Donate from "/src/components/pages/Donations";
+import Donate from "/src/components/pages/Donate";
 import Footer from "/src/components/Footer";
 import PageNotFound from "/src/components/pages/PageNotFound";
 import PageTitle from "/src/components/PageTitle";

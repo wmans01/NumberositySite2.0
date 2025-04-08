@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const Summer = () => {
+  useEffect(() => {
+    document.title = "Summer Programs | Numberosity Academy";
+  }, []);
   return (
     <div className="relative bg-white">
       <div className="absolute top-0 left-0 w-full z-10">
@@ -41,15 +44,15 @@ const Summer = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* 2024 Program */}
-            <Link to="/learning/summer/2024" className="block">
+            <Link to="/news/four-students-to-four-teams" className="block">
               <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-8 h-full border border-gray-200 hover:border-[#0BA2D9] group">
                 <div className="text-4xl mb-4">☀️</div>
                 <h2 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-3 group-hover:text-[#0BA2D9] transition-colors">
                   Summer Program 2024
                 </h2>
                 <p className="font-['Roboto'] text-gray-600">
-                  Coming soon! Check back for details about our 2024 summer
-                  program.
+                  The 2024 Summer Program was a success! Check out the the
+                  highlights.
                 </p>
               </div>
             </Link>

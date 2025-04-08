@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const Courses = () => {
+  useEffect(() => {
+    document.title = "STEM Courses | Numberosity Academy";
+  }, []);
   const [searchTerm, setSearchTerm] = useState("");
 
   const courses = [

@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import NavHeader from "/src/components/NavHeader.jsx";
 
 const CoursePage = () => {
   const { courseId } = useParams();
   console.log("Course ID from URL:", courseId);
+
+  useEffect(() => {
+    document.title = "Course Details | Numberosity Academy";
+  }, []);
 
   const courseData = {
     "cad-2023": {
@@ -559,6 +563,9 @@ const CoursePage = () => {
   const course = courseData[courseId];
   console.log("Found course:", course);
 
+  useEffect(() => {
+    document.title = "Course Details | Numberosity Academy";
+  }, []);
   if (!course) {
     return (
       <div className="relative bg-white">

@@ -22,14 +22,14 @@ const Outreach = () => {
       title: "MassRobotics",
       description:
         "Collaboration with MassRobotics to support STEM education and innovation in Massachusetts.",
-      link: "/outreach/massrobotics",
+      link: "/news/mass-robotics-block-party",
       icon: "🤖",
     },
     {
       title: "Lexington Discovery Day",
       description:
         "Annual event showcasing robotics and STEM activities for the Lexington community.",
-      link: "/outreach/lexington-discovery-day",
+      link: "/news/lexington-discovery-day",
       icon: "🔬",
     },
   ];
