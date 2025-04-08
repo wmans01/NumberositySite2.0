@@ -14,8 +14,8 @@ const TeamPage = () => {
     "8889A": {
       name: "99%",
       grade: "High School",
-      logo: "/assets/teams/8889A.png",
-      teamPhoto: "/assets/teams/8889A_team.jpg",
+      logo: "/teams/8889A.png",
+      teamPhoto: "/teams/8889A_team.jpg",
       description:
         "Team 8889A, known as 99%, is our premier high school team. They consistently demonstrate excellence in robotics competitions and serve as mentors to younger teams.",
       achievements: [
@@ -36,8 +36,8 @@ const TeamPage = () => {
     "8889B": {
       name: "Blackjack",
       grade: "High School",
-      logo: "/assets/teams/blackjack.png",
-      teamPhoto: "/assets/teams/8889B_team.jpg",
+      logo: "/teams/blackjack.png",
+      teamPhoto: "/teams/8889B_team.jpg",
       description:
         "Team 8889B, Blackjack, is known for their innovative designs and strategic gameplay. They bring a unique perspective to every competition.",
       achievements: [
@@ -56,8 +56,8 @@ const TeamPage = () => {
     "8889C": {
       name: "98%",
       grade: "Middle School",
-      logo: "/assets/teams/8889C.png",
-      teamPhoto: "/assets/teams/8889C_team.jpg",
+      logo: "/teams/8889C.png",
+      teamPhoto: "/teams/8889C_team.jpg",
       description:
         "Team 8889C, 98%, represents our middle school division. They show great promise and dedication to robotics.",
       achievements: [
@@ -75,8 +75,8 @@ const TeamPage = () => {
     "8889S": {
       name: "shhh...",
       grade: "High School",
-      logo: "/assets/teams/8889S.png",
-      teamPhoto: "/assets/teams/8889S_team.jpg",
+      logo: "/teams/8889S.png",
+      teamPhoto: "/teams/8889S_team.jpg",
       description:
         "Team 8889S is a newly-formed competitive robotics team driven by creativity, precision, and a passion for learning. Though new, they are committed to engineering high-performing robots and making a strong impact both on the field and in our community.",
       achievements: [
@@ -95,8 +95,8 @@ const TeamPage = () => {
     "8889X": {
       name: "1%",
       grade: "High School",
-      logo: "/assets/teams/8889X.jpg",
-      teamPhoto: "/assets/teams/8889X_team.jpg",
+      logo: "/teams/8889X.jpg",
+      teamPhoto: "/teams/8889X_team.jpg",
       description:
         "Team 8889X, 1%, pushes the boundaries of what's possible in robotics, always striving for that extra 1% of performance.",
       achievements: [

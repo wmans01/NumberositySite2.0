@@ -37,7 +37,7 @@ const Summer2025 = () => {
           {/* Main Flyer Image */}
           <div className="mb-16">
             <img
-              src="/assets/2025-flyer.jpg"
+              src="/2025-flyer.jpg"
               alt="VEX Robotics Summer Camps 2025"
               className="w-full rounded-xl shadow-lg"
               loading="lazy"

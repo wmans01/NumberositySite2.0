@@ -37,7 +37,7 @@ const RoboBridge = () => {
           {/* Main Image */}
           <div className="mb-16">
             <img
-              src="/assets/outreach/robobridge-main.jpg"
+              src="/outreach/robobridge-main.jpg"
               alt="RoboBridge Program"
               className="w-full h-full object-cover rounded-xl shadow-lg"
             />

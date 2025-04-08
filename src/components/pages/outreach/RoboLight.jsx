@@ -37,7 +37,7 @@ const RoboLight = () => {
           {/* Main Image */}
           <div className="mb-16">
             <img
-              src="/assets/outreach/robolight-main.jpg"
+              src="/outreach/robolight-main.jpg"
               alt="RoboLight Program"
               className="w-full object-cover rounded-xl shadow-lg"
             />

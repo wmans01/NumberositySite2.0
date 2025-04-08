@@ -13,7 +13,7 @@ const Teams = () => {
       number: "8889A",
       name: "99%",
       grade: "High School",
-      logo: "/assets/teams/8889A.png",
+      logo: "/teams/8889A.png",
       link: "/teams/8889A",
     },
     {
@@ -21,7 +21,7 @@ const Teams = () => {
       number: "8889B",
       name: "Blackjack",
       grade: "High School",
-      logo: "/assets/teams/blackjack.png",
+      logo: "/teams/blackjack.png",
       link: "/teams/8889B",
     },
     {
@@ -29,7 +29,7 @@ const Teams = () => {
       number: "8889C",
       name: "98%",
       grade: "Middle School",
-      logo: "/assets/teams/8889C.png",
+      logo: "/teams/8889C.png",
       link: "/teams/8889C",
     },
     {
@@ -37,7 +37,7 @@ const Teams = () => {
       number: "8889S",
       name: "shhh...",
       grade: "High School",
-      logo: "/assets/teams/8889S.png",
+      logo: "/teams/8889S.png",
       link: "/teams/8889S",
     },
     {
@@ -45,7 +45,7 @@ const Teams = () => {
       number: "8889X",
       name: "1%",
       grade: "High School",
-      logo: "/assets/teams/8889X.jpg",
+      logo: "/teams/8889X.jpg",
       link: "/teams/8889X",
     },
   ];
