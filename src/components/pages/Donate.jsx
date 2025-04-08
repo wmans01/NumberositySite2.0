@@ -41,21 +41,21 @@ const Donate = () => {
       image: "/sponsors/prepEDU.png",
       name: "PrepEdu Educational Consulting",
       description:
-        "Description of Sponsor 1 and their contribution to Numberosity Academy.",
+        "PrepEdu Consulting, a premier educational consulting firm founded by Dr. Jing Jing, has supported Numberosity Academy through generous sponsorship, empowering our mission to make STEM education accessible to diverse learners.",
       link: "https://prepedu.org",
     },
     {
       image: "/sponsors/phoenix.png",
       name: "Phoenix Real Estate",
       description:
-        "Description of Sponsor 2 and their contribution to Numberosity Academy.",
-      link: "https://www.prepboston.com/",
+        "Phoenix Real Estate, led by the dedicated and community-focused agent Wenny, has generously sponsored Numberosity Academy, helping us expand educational opportunities and resources for students across Massachusetts.",
+      link: "https://vow.mlspin.com//default.aspx?id=82372&PageType=0&PageId=524851",
     },
     {
       image: "/sponsors/diyiboston.png",
       name: "Diyi Boston",
       description:
-        "Description of Sponsor 3 and their contribution to Numberosity Academy.",
+        "Diyi Education, a trusted academic support provider for students in grades 3–12 since 2013, has supported Numberosity Academy through a generous sponsorship that furthers our mission to empower young learners of all backgrounds.",
       link: "https://diyiboston.com",
     },
   ];
@@ -79,7 +79,7 @@ const Donate = () => {
         <NavHeader />
       </div>
       <div className="relative pt-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 pb-4">
           <h1 className="text-4xl font-bold text-gray-900 mb-12 text-center">
             Support Our Mission
           </h1>

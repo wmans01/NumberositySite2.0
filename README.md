@@ -79,7 +79,7 @@ This section provides guidelines for adding new content to the website. Please f
 2. Follow the existing article structure:
    - Add a new case in the `getArticleContent` function
    - Include all required fields: title, date, content, and image
-   - Ensure images are added to `src/assets/` with appropriate naming
+   - Ensure images are added to `/public/news/` with appropriate naming
 3. Update the `News.jsx` component to include the new article in the grid
 4. Test the article display and ensure proper formatting
 
@@ -93,8 +93,7 @@ This section provides guidelines for adding new content to the website. Please f
    - Learning outcomes
    - Schedule and duration
    - Registration details
-4. Add any course-specific images to `src/assets/`
-5. Update the course listing in the main courses page
+4. Update the course listing in the main courses page
 
 #### Adding Outreach Programs
 
@@ -107,7 +106,7 @@ This section provides guidelines for adding new content to the website. Please f
    - Implementation details
    - Contact information
 4. Update the outreach page to include the new program
-5. Add any program-specific images to `src/assets/`
+5. Add any program-specific images to `/public/outreach/`
 
 #### Adding Summer Programs
 
@@ -122,13 +121,36 @@ This section provides guidelines for adding new content to the website. Please f
 4. Update any relevant images or assets
 5. Ensure all links and contact information are current
 
+#### Adding Teams and Team Members
+
+1. Navigate to `src/components/pages/teams/TeamPage.jsx`
+2. Add a new team case in the `getTeamContent` function
+3. Include all required information:
+   - Team name and number
+   - Team description and achievements
+   - Team members with their roles
+   - Competition history
+   - Team photos and media
+4. For team members, include:
+   - Full name
+   - Role/position
+   - Grade level
+   - Years of experience
+   - Special achievements
+5. Add team-specific images to `/public/teams/` with appropriate naming:
+   - Team photos: `team-[number]-group.jpg`
+   - Individual photos: `team-[number]-[firstname].jpg`
+   - Competition photos: `team-[number]-competition-[event].jpg`
+6. Update the main teams page to include the new team
+7. Ensure all team member information is current and accurate
+
 #### General Guidelines
 
 1. **Images**:
 
    - Use high-quality images
    - Optimize images before adding them
-   - Place all images in `src/assets/`
+   - Place all images in `/public/`
    - Use descriptive filenames
 
 2. **Content Formatting**:
