@@ -18,7 +18,9 @@ const Footer = () => {
       </p>
       <p className="footerText">
         For general questions, please contact us at{" "}
-        <a href="mailto:vex8889a@gmail.com">vex8889a@gmail.com.</a>
+        <a href="mailto:numberosityacademy@gmail.com">
+          numberosityacademy@gmail.com.
+        </a>
       </p>
     </div>
   );
