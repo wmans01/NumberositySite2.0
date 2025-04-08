@@ -24,12 +24,34 @@ const TeamPage = () => {
         "Launch Signature Event Tournament and Skills Challenge Champions",
         "2x Worlds Qualified",
       ],
-      historicalAchievements: [
-        "Framingham V5RC High Stakes December Tournament Finalists",
-        "Massachusetts State Championship Tournament Semifinalists",
-        "Multiple Tournament Finalist Appearances",
-        "Consistent Skills Challenge Top 10 Rankings",
-      ],
+      historicalAchievements: {
+        2024: [
+          {
+            achievement:
+              "Framingham V5RC High Stakes December Tournament Finalists",
+            event: "Framingham V5RC High Stakes",
+            date: "December 2023",
+          },
+          {
+            achievement:
+              "Massachusetts State Championship Tournament Semifinalists",
+            event: "Massachusetts State Championship",
+            date: "March 2024",
+          },
+        ],
+        2023: [
+          {
+            achievement: "Multiple Tournament Finalist Appearances",
+            event: "Various Tournaments",
+            date: "2023 Season",
+          },
+          {
+            achievement: "Consistent Skills Challenge Top 10 Rankings",
+            event: "Skills Challenge",
+            date: "2023 Season",
+          },
+        ],
+      },
       members: [
         "Jeremy Wang - Captain and Builder",
         "Peter Bai - Programmer",
@@ -51,11 +73,27 @@ const TeamPage = () => {
         "Framingham V5RC High Stakes December Design Award Winners",
         "Worlds Qualified",
       ],
-      historicalAchievements: [
-        "Multiple Tournament Semifinalist Appearances",
-        "Consistent Design Award Nominations",
-        "Skills Challenge Top 15 Rankings",
-      ],
+      historicalAchievements: {
+        2024: [
+          {
+            achievement: "Multiple Tournament Semifinalist Appearances",
+            event: "Various Tournaments",
+            date: "2024 Season",
+          },
+        ],
+        2023: [
+          {
+            achievement: "Consistent Design Award Nominations",
+            event: "Various Tournaments",
+            date: "2023 Season",
+          },
+          {
+            achievement: "Skills Challenge Top 15 Rankings",
+            event: "Skills Challenge",
+            date: "2023 Season",
+          },
+        ],
+      },
       members: [
         "Jason Ma - Builder and Designer",
         "Ralph Wang - Programmer",
@@ -245,30 +283,51 @@ const TeamPage = () => {
               <h3 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-4">
                 Historical Achievements
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-                {team.historicalAchievements.map((achievement, index) => (
-                  <div
-                    key={index}
-                    className="bg-gray-50 rounded-lg p-3 flex items-start gap-2"
-                  >
-                    <div className="flex-shrink-0 mt-0.5">
-                      <svg
-                        className="w-3 h-3 text-gray-400"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
+              <div className="space-y-6">
+                {Object.entries(team.historicalAchievements).map(
+                  ([year, achievements]) => (
+                    <div key={year} className="space-y-3">
+                      <h4 className="font-['Roboto'] font-semibold text-lg text-gray-800 border-b border-gray-200 pb-2">
+                        {year}
+                      </h4>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                        {achievements.map((achievement, index) => (
+                          <div
+                            key={index}
+                            className="bg-gray-50 rounded-lg p-3"
+                          >
+                            <div className="flex items-start gap-2 mb-1">
+                              <div className="flex-shrink-0 mt-0.5">
+                                <svg
+                                  className="w-3 h-3 text-gray-400"
+                                  fill="currentColor"
+                                  viewBox="0 0 20 20"
+                                >
+                                  <path
+                                    fillRule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clipRule="evenodd"
+                                  />
+                                </svg>
+                              </div>
+                              <p className="font-['Roboto'] text-gray-700 text-xs">
+                                {achievement.achievement}
+                              </p>
+                            </div>
+                            <div className="flex justify-between items-center mt-1">
+                              <span className="font-['Roboto'] text-gray-500 text-[10px] bg-gray-100 px-2 py-0.5 rounded">
+                                {achievement.event}
+                              </span>
+                              <span className="font-['Roboto'] text-gray-400 text-[10px]">
+                                {achievement.date}
+                              </span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                    <p className="font-['Roboto'] text-gray-500 text-xs">
-                      {achievement}
-                    </p>
-                  </div>
-                ))}
+                  )
+                )}
               </div>
             </div>
 
