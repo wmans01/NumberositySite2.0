@@ -1111,30 +1111,6 @@ Skills 4th overall`,
         
       ]
     },
-    
-    "Launch": {
-      title: "LAUNCH VRC Signature Event @ Ohio",
-      description: "This week, we went back to Ohio for Launch, one of the strongest signature events with 72 strong teams.",
-      coverImage: "/news/launch-cover.jpg",
-      date: "Feb 16, 2024",
-      content: `This week, we went back to Ohio for Launch, one of the strongest signature events with 72 strong teams. This event holds global significance as eleven of the participating teams had already secured sports for the World Championships before states. Despite facing challenges including bad match schedule and unexpected incidents like pipe leaks and battery falls, our performance in the qualification rounds fell short, with losses in 4 out of 9 matches, resulting in a 32nd overall ranking in quals. In Skills, we did a bit better, managing to be 4th with a 359 total Skills score. For elimination rounds, however, we had a fantastic alliance with 99904B, the 4th seed. In the end, we made it all the way to Finals, barely losing the last two matches. Thanks to 7316X and 323V for two amazing Finals matches and to all the volunteers for organizing such an exciting event at the Great Lakes Science Center!
-
-Our achievement:
-
-Tournament Finalist
-Skills 4th overall`,
-      secondMain: "no",
-      secondMainImage: "/news/launch-1.jpg",
-      gallery: [
-        {
-          type: "image",
-          url: "/news/launch-1.jpg",
-          caption: "",
-        },
-        
-        
-      ]
-    },
     "Framingham-2024": {
       title: "Framingham VRC Over under February Tournament",
       description: "",
