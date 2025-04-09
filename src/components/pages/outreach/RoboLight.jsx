@@ -35,13 +35,7 @@ const RoboLight = () => {
           </Link>
 
           {/* Main Image */}
-          <div className="mb-16">
-            <img
-              src="/outreach/robolight-main.jpg"
-              alt="RoboLight Program"
-              className="w-full object-cover rounded-xl shadow-lg"
-            />
-          </div>
+          
 
           {/* Program Description */}
           <div className="space-y-16">
@@ -60,11 +54,19 @@ const RoboLight = () => {
             </div>
 
             {/* Event Series */}
+            
             <div className="bg-white rounded-xl p-8 border border-gray-200">
               <h2 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-6">
                 Event Series
               </h2>
               <div className="space-y-12">
+              <div className="mb-16">
+            <img
+              src="/outreach/robolight-main-2.jpg"
+              alt="RoboLight Program"
+              className="w-2/3 object-cover rounded-xl shadow-lg"
+            />
+          </div>
                 {/* Series 1 */}
                 <div>
                   <h3 className="font-['Roboto'] font-bold text-xl text-gray-900 mb-4">
@@ -93,7 +95,15 @@ const RoboLight = () => {
                     </ul>
                   </div>
                 </div>
-
+                
+{/* Main Image */}
+<div className="mb-16">
+            <img
+              src="/outreach/robolight-main.jpg"
+              alt="RoboLight Program"
+              className="w-2/3 object-cover rounded-xl shadow-lg"
+            />
+          </div>
                 {/* Series 2 */}
                 <div>
                   <h3 className="font-['Roboto'] font-bold text-xl text-gray-900 mb-4">
@@ -124,6 +134,7 @@ const RoboLight = () => {
                 </div>
               </div>
             </div>
+{/* Main Image */}
 
             {/* Program Impact */}
             <div className="bg-white rounded-xl p-8 border border-gray-200">

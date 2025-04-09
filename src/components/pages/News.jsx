@@ -169,6 +169,59 @@ const News = () => {
       coverImage: "/news/robolight-1-cover.jpg",
       date: "March 30, 2024",
     },
+    {
+      id: "online-challenge",
+      title: "VEX VRC 2023-2024 High School Reverse Engineering Online Challenge",
+      description: "Team 8889A's reverse engineering project has been selected as one of the five finalists in the VEX VRC 2023-2024 High School Reverse Engineering Online Challenge.",
+      coverImage: "/news/online-challenge-cover.jpg",
+      date: "March, 2024",
+    },
+    {
+      id: "SNE-Regional",
+      title: "Southern New England VRC Regional Championships HS Division",
+      description: "At the recent New England VEX Regional Championships, we clinched the tournament champion title, going undefeated in all 15 matches.",
+      coverImage: "/news/SNE-Regional-cover.jpg",
+      date: "Feb 26, 2024",
+    },
+    {
+      id: "Launch",
+      title: "LAUNCH VRC Signature Event @ Ohio ",
+      description: "This week, we went back to Ohio for Launch, one of the strongest signature events with 72 strong teams.",
+      coverImage: "/news/launch-cover.jpg",
+      date: "Feb 16, 2024",
+    },
+    {
+      id: "Framingham-2024",
+      title: "Framingham VRC Over under February Tournament ",
+      description: "Just one day after Gateway to the West, we attended a local competition at Framingham. ",
+      coverImage: "/news/Framingham-2024-cover.jpg",
+      date: "Feb 4, 2024",
+    },{
+      id: "Gateway-2024",
+      title: "Gateway to the West VRC Signature Event @ West Virginia",
+      description: "This week, we went back to Ohio for Launch, one of the strongest signature events with 72 strong teams.",
+      coverImage: "/news/Gateway-2024-cover.jpg",
+      date: "Feb 2th, 2024",
+    },{
+      id: "Kalahari-2024",
+      title: "Kalahari Classic VRC Signature Event @ Ohio ",
+      description: "At the highly competitive Kalahari event in Ohio, our team ranked 6th in qualifications, advanced to the quarter-finals, and placed 7th in Skills",
+      coverImage: "/news/Kalahari-2024-cover.jpg",
+      date: "Jan 19, 2024",
+    },
+    {
+      id: "Marlborough-2024",
+      title: "Marlborough Robotics VRC Over/Under Tournament ",
+      description: "We had an incredible day at the Marlborough HS Qualifier, going 6-0, winning the event with 1898R, sweeping skills, earning Excellence, and bringing home our first-ever triple crown—see you at Kalahari!",
+      coverImage: "/news/Marlborough-2024-cover.jpg",
+      date: "Jan 13, 2024",
+    },{
+      id: "Wave-2024",
+      title: "WAVE at WPI Signature Event @ Massachusetts ",
+      description: "Amazing time at Wave @ WPI—after a tough start, we bounced back to finish 9-1, ranked #1 with 8 AWPs, won with 9364C, took 1st in skills, earned the Think Award, and are now #6 in the world",
+      coverImage: "/news/wave-2024-cover.jpg",
+      date: "Nov 30, 2023",
+    },
   ];
 
   return (
@@ -212,7 +265,7 @@ const News = () => {
                   <h2 className="font-['Roboto'] font-bold text-xl text-gray-900 mb-2 group-hover:text-[#0BA2D9] transition-colors duration-300">
                     {article.title}
                   </h2>
-                  <p className="text-gray-600 line-clamp-2">
+                  <p className="text-gray-600 line-clamp-2 whitespace-pre-line">
                     {article.description}
                   </p>
                 </div>

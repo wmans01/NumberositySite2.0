@@ -18,10 +18,16 @@ const CoursePage = () => {
         {
           title: "Introduction",
           url: "https://www.youtube.com/embed/TYONyCcYzak",
+          caption:  [
+            `🏆 High Stakes Winter Classic at Mashpee Tournament Champions,
+             🏆 "Framingham V5RC High Stakes December Design Award Winners,
+             🏆 "Worlds Qualified`,
+          ],
         },
         {
           title: "2D Sketches",
           url: "https://www.youtube.com/embed/3LVv2QuRhes",
+          caption: "Ctrl+V!",
         },
         {
           title: "Slightly More Advanced Tools",
@@ -641,16 +647,16 @@ const CoursePage = () => {
             </h1>
           </div>
 
-          <div className="grid grid-cols-1 gap-8">
+          <div className="grid grid-cols-3 gap-8">
             {course.videos?.map((video, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl shadow-md p-8 border border-gray-200"
+                className="bg-white rounded-xl shadow-md p-4 border border-gray-200"
               >
                 <h2 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-4">
                   {video.title}
                 </h2>
-                <div className="aspect-w-16 aspect-h-9 h-[500px]">
+                <div className="aspect-w-16 aspect-h-9 h-[200px]">
                   <iframe
                     src={video.url}
                     title={video.title}
@@ -659,6 +665,9 @@ const CoursePage = () => {
                     allowFullScreen
                   ></iframe>
                 </div>
+                <h4 className="font-['Roboto'] text-gray-900 mt-4">
+                  {video.caption}
+                </h4>
               </div>
             ))}
           </div>

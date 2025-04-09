@@ -19,36 +19,149 @@ const TeamPage = () => {
       description:
         "Team 8889A, known as 99%, is our premier high school team. They consistently demonstrate excellence in robotics competitions and serve as mentors to younger teams.",
       achievements: [
-        "Souther New England Regional Champions 2023",
-        "Lobstah Bowl Signature Event Excellence Award Winners",
-        "Launch Signature Event Tournament and Skills Challenge Champions",
-        "2x Worlds Qualified",
-      ],
+        "VEX Skills #1 New England (2024-2025)",
+        "Launch Signature Event Tournament and Skills Champions 2025",
+        "Southern New England Regional Tournament Champion 2024",
+        "Lobstah Bowl Signature Event Excellence Award Winners 2024",
+        "WAVE @ WPI Signature Event Tournament and Skills Champions 2023",
+        "Worlds Qualified",
+          ],
       historicalAchievements: {
-        2024: [
+        "2024-2025": [
           {
-            achievement:
-              "Framingham V5RC High Stakes December Tournament Finalists",
-            event: "Framingham V5RC High Stakes",
-            date: "December 2023",
-          },
-          {
-            achievement:
-              "Massachusetts State Championship Tournament Semifinalists",
+            achievement:[
+              `🏆Skills Challenge Champion 
+               🏆Tournament Semifinalists`,    ],
+                          
             event: "Massachusetts State Championship",
-            date: "March 2024",
+            date: "March 2025",
+          },{
+            achievement:[
+              `🏆 Tournament Champion 
+               🏆 Skills Challenge Champion`,    ],
+                          
+            event: "Launch National Signature Event HS VEX V5",
+            date: "Feb 2025",
+          },{
+            achievement:[
+              `🏆 Excellence Award 
+               🏆 Skills Challenge Champion
+               `,    ],
+                          
+            event: "North Andover High School VEX V5 High Stakes",
+            date: "Jan 2025",
+          },{
+            achievement:[
+              `🏆 Excellence Award 
+               🏆 Tournament Champion
+               🏆 Skills Challenge Champion`,    ],
+                          
+            event: "Killingly Robotics HS 2nd Annual V5RC",
+            date: "Jan 2025",
+          },{
+            achievement:[
+              `🏆 Excellence Award 
+               🏆 Skills Challenge Champion
+               🏆 Tournament Champion`,    ],
+                          
+            event: "North Andover High School VEX V5 High Stakes",
+            date: "Nov 2024",
+          },{
+            achievement:[
+              `🏆 Excellence Award 
+               🏆 Skills Challenge Champion
+               🏆 Tournament Champion`,    ],
+                          
+            event: "MCC Robotics VEX V5 Robotics Competition",
+            date: "Oct 2025",
           },
-        ],
-        2023: [
           {
-            achievement: "Multiple Tournament Finalist Appearances",
-            event: "Various Tournaments",
-            date: "2023 Season",
+            achievement:[
+              `🏆 Excellence Award 
+               🏆 Skills Challenge Champion
+               🏆 Tournament Finalist`,    ],
+                          
+            event: "The Lobstah Bowl National Signature Event",
+            date: "Oct 2024",
+          },],
+        "2023-2024": [
+          {
+            achievement:[
+              `🏆Tournament Champion`,    ],
+                          
+            event: "Southern New England Regional Championships" ,
+            date: "Feb 2025",
+          },{
+            achievement:[
+              `🏆 Tournament Finalist 
+              `,    ],
+                          
+            event: "Launch National Signature Event HS VEX V5",
+            date: "Feb 2025",
+          },{
+            achievement:[
+              `🏆 Excellence Award
+               🏆 Tournament Champion
+               🏆 Skill Challenge Champion`,    ],
+                          
+            event: "Framingham VRC Over Under January HS Tournament",
+            date: "Feb 2024",
           },
           {
-            achievement: "Consistent Skills Challenge Top 10 Rankings",
-            event: "Skills Challenge",
-            date: "2023 Season",
+            achievement:[
+              `🏆 Tournament Finalist
+               🏆 Skills 3rd Overall
+               `,    ],
+                          
+            event: "Gateway to the West VRC Signature Event",
+            date: "Feb 2024",
+          },{
+            achievement:[
+              `🏆 Tournament Quarter Finalist
+               
+               `,    ],
+                          
+            event: "Kalahari Classic VRC Signature Event",
+            date: "Jan 2024",
+          },{
+            achievement:[
+              `🏆 Tournament Champion
+               🏆 Sportsmanship Award`,    ],
+                          
+            event: "Framingham VRC Over Under January HS Tournament",
+            date: "Jan 2024",
+          },{
+            achievement:[
+              `🏆 Tournament Champion
+               🏆 Skills Challenge Champion
+               🏆 Think Award`,    ],
+                          
+            event: "WAVE at WPI VRC National Signature Event",
+            date: "Dec 2023",
+          },{
+            achievement:[
+              `🏆 Excellence Award 
+               🏆 Tournament Champion
+               🏆 Skills Challenge Champion`,    ],
+                          
+            event: "Marlborough Robotics VRC Over/Under (HS)",
+            date: "Jan 2025",
+          },{
+            achievement:[
+              `🏆 Tournament Finalist
+               🏆 Robot Skills Champion
+               
+               `,    ],
+                          
+            event: "Ridgefield VRC Over Under Qualifying Tournament",
+            date: "Jan 2024",
+          },{
+            achievement:[
+              `🏆 Skills Challenge Champion
+               `,    ],
+                          
+            event: "Rip Tide! – Framingham/Hopkinton HS Tournament ",
+            date: "Dec 2023",
           },
         ],
       },
@@ -74,25 +187,40 @@ const TeamPage = () => {
         "Worlds Qualified",
       ],
       historicalAchievements: {
-        2024: [
+        "2024-2025": [
           {
-            achievement: "Multiple Tournament Semifinalist Appearances",
-            event: "Various Tournaments",
+            achievement:[
+              `
+               🏆 Skills Challenge Champion
+               `,    ],
+            event: "High Stakes Winter Classic at Mashpee",
             date: "2024 Season",
           },
-        ],
-        2023: [
           {
-            achievement: "Consistent Design Award Nominations",
-            event: "Various Tournaments",
-            date: "2023 Season",
+            achievement:[
+              `
+               🏆 Design Award
+               `,    ],
+            event: "Framingham V5RC High Stakes ",
+            date: "2024 Season",
+          },{
+            achievement:[
+              `
+               🏆 Innovate Award
+               `,    ],
+            event: "North Ander High School",
+            date: "2024 Season",
+          },{
+            achievement:[
+              `
+               🏆 Tournament Champion
+               `,    ],
+            event: "Belmont Hill VRC High Stakes Tournament ",
+            date: "2024 Season",
           },
-          {
-            achievement: "Skills Challenge Top 15 Rankings",
-            event: "Skills Challenge",
-            date: "2023 Season",
-          },
+          
         ],
+        
       },
       members: [
         "Jason Ma - Builder and Designer",
@@ -114,11 +242,20 @@ const TeamPage = () => {
         "Framingham December MS Event Tournament Finalists",
         "Worlds Qualified",
       ],
-      historicalAchievements: [
-        "Multiple Tournament Quarterfinalist Appearances",
+      historicalAchievements: {
+        "2024": [
+          {
+            achievement:[
+              "Multiple Tournament Quarterfinalist Appearances",
         "Skills Challenge Top 20 Rankings",
         "Consistent Tournament Participation",
-      ],
+            ],
+            event: "skibidi",
+            date: "mar 16",
+          }
+        ]
+        
+      },
       members: [
         "Jack Li - Builder and Designer",
         "Mason Wu - Builder",
@@ -138,11 +275,19 @@ const TeamPage = () => {
         "ALA Winter Classic Innovate Award Winners",
         "Worlds Qualified",
       ],
-      historicalAchievements: [
-        "Multiple Tournament Quarterfinalist Appearances",
-        "Skills Challenge Top 25 Rankings",
+      historicalAchievements: {
+        "2024": [
+          {
+            achievement:[
+              "Multiple Tournament Quarterfinalist Appearances",
+        "Skills Challenge Top 20 Rankings",
         "Consistent Tournament Participation",
-      ],
+            ],
+            event: "skibidi",
+            date: "mar 16",
+          }
+        ],
+        },
       members: [
         "Jacob Seo - Builder and Driver",
         "Bryant Wang - Builder and Scout",
@@ -163,11 +308,19 @@ const TeamPage = () => {
         "Mashpee Winter Classic Excellence Award and Tournament Champions",
         "Worlds Qualified",
       ],
-      historicalAchievements: [
-        "Multiple Tournament Semifinalist Appearances",
+      historicalAchievements: {
+        "2024": [
+          {
+            achievement:[
+              "Multiple Tournament Quarterfinalist Appearances",
         "Skills Challenge Top 20 Rankings",
-        "Consistent Build Award Nominations",
-      ],
+        "Consistent Tournament Participation",
+            ],
+            event: "skibidi",
+            date: "mar 16",
+          }
+        ],
+        },
       members: [
         "Bojro Das - Programmer and Driver",
         "Takeru Endo - Builder",
@@ -298,7 +451,7 @@ const TeamPage = () => {
                           >
                             <div className="flex items-start gap-2 mb-1">
                               <div className="flex-shrink-0 mt-0.5">
-                                <svg
+                                {/* <svg
                                   className="w-3 h-3 text-gray-400"
                                   fill="currentColor"
                                   viewBox="0 0 20 20"
@@ -308,9 +461,9 @@ const TeamPage = () => {
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                     clipRule="evenodd"
                                   />
-                                </svg>
+                                </svg> */}
                               </div>
-                              <p className="font-['Roboto'] text-gray-700 text-xs">
+                              <p className="font-['Roboto'] text-gray-700 text-xs whitespace-pre-line">
                                 {achievement.achievement}
                               </p>
                             </div>

@@ -882,19 +882,496 @@ From educational demonstrations to inspiring conversations, the event was filled
       coverImage: "/news/robolight-1-cover.jpg",
       date: "March 30, 2024",
       content: `Numberosity Academy successfully hosted their first community event at the Lexington Community Center on March 30, 2024. The event was aimed at introducing VEX Robotics to robot enthusiasts and families interested in learning more about VEX in Lexington and nearby towns. Team Members from 8889A shared their insights into VEX, their team’s history, and experiences. The event featured a live demonstration of their robot, engaging hands-on driving challenges, and a Q&A session. With over 100 attendees, including many enthusiastic young kids, the event was a great success, sparking interest and engagement in VEX Robotics.`,
+      secondMain: "Yes",
+      secondMainImage: "/news/robolight-1-3.jpg",
       gallery: [
         {
           type: "image",
           url: "/news/robolight-1-1.jpg",
-          caption: "Peter teaching",
+          caption: "Peter",
         },
         {
           type: "image",
           url: "/news/robolight-1-2.jpg",
-          caption: "Athena teaching",
+          caption: "Athena",
+        },{
+          type: "image",
+          url: "/news/robolight-1-6.jpg",
+          caption: "Jeremy",
+        },{
+          type: "image",
+          url: "/news/robolight-1-5.jpg",
+          caption: "Charles",
+        },{
+          type: "image",
+          url: "/news/robolight-1-7.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-8.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-9.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-10.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-11.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-12.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-13.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-14.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-15.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-16.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-17.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/robolight-1-18.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-19.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-20.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-21.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-22.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-23.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-24.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-25.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-26.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-27.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/robolight-1-4.jpg",
+          caption: "",
         },
       ]
-    }
+    },
+    "online-challenge": {
+      title: "VEX VRC 2023-2024 High School Reverse Engineering Online Challenge",
+      description: "Team 8889A's reverse engineering project has been selected as one of the five finalists in the VEX VRC 2023-2024 High School Reverse Engineering Online Challenge.",
+      coverImage: "/news/online-challenge-cover.jpg",
+      date: "March, 2024",
+      content: <div className = "whitespace-pre-line"><>The 5 members of our robotics team are passionate students dedicated to using teamwork
+to continuously improve our robot designs, learn from what we observe, and
+enthusiastically take up new projects.</>
+
+
+<>Due to the autonomous and mechanical emphasis of building our robot in VEX, we decided
+to reverse-engineer an everyday technology that combines these components for the
+Reverse Engineering Challenge. After debating on disassembling a variety of gadgets—from
+sewing machines to calculators—we settled on the perfect combination: a printer.</>
+
+<>To read the full report, check <a target="_blank" rel="noopener noreferrer" href="">here.</a></></div>,
+      secondMain: "no",
+      secondMainImage: "",
+      gallery: [
+        
+        
+      ]
+    },
+
+    "SNE-Regional": {
+      title: "Southern New England VRC Regional Championships HS Division",
+      description: "At the recent New England VEX Regional Championships, we clinched the tournament champion title, going undefeated in all 15 matches. ",
+      coverImage: "/news/SNE-Regional-cover.jpg",
+      date: "Feb 26, 2024",
+      content: `At the recent Southern New England VEX Regional Championships, we clinched the tournament champion title, going undefeated in all 15 matches. Despite finishing third in the skills challenge rankings, it marked our best performance of the season, and managed to get us the 19th highest score in the world.
+In 2024, we participated in three major national competitions, reaching the quarter-finals in one and becoming finalists in the other two. These invaluable experiences have shaped every team member through numerous challenges and hardships. We were also able to make many friends and engage with other strong teams from different regions.
+
+Lastly, congratulations to several Lexington teams for receiving awards and qualifying for the World Championship in April. The continuous exchanges have contributed to the overall improvement of not only our team but all the teams in the region. Lexington teams have managed to take up five out of the 22 spots in the Southern New England region. See you all at the World Championships!`,
+      secondMain: "Yes",
+      secondMainImage: "/news/SNE-Regional-1.jpg",
+      gallery: [
+        {
+          type: "video",
+          url: "https://www.youtube.com/embed/bnNIDQSVL5k",
+          caption: "SNE Regionals Recap",
+        },{
+          type: "image",
+          url: "/news/SNE-Regional-2.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/SNE-Regional-3.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/SNE-Regional-4.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/SNE-Regional-5.jpg",
+          caption: "",
+        },
+        
+      ]
+    },
+    "Launch": {
+      title: "LAUNCH VRC Signature Event @ Ohio",
+      description: "This week, we went back to Ohio for Launch, one of the strongest signature events with 72 strong teams.",
+      coverImage: "/news/launch-cover.jpg",
+      date: "Feb 16, 2024",
+      content: `This week, we went back to Ohio for Launch, one of the strongest signature events with 72 strong teams. This event holds global significance as eleven of the participating teams had already secured sports for the World Championships before states. Despite facing challenges including bad match schedule and unexpected incidents like pipe leaks and battery falls, our performance in the qualification rounds fell short, with losses in 4 out of 9 matches, resulting in a 32nd overall ranking in quals. In Skills, we did a bit better, managing to be 4th with a 359 total Skills score. For elimination rounds, however, we had a fantastic alliance with 99904B, the 4th seed. In the end, we made it all the way to Finals, barely losing the last two matches. Thanks to 7316X and 323V for two amazing Finals matches and to all the volunteers for organizing such an exciting event at the Great Lakes Science Center!
+
+Our achievement:
+
+Tournament Finalist
+Skills 4th overall`,
+      secondMain: "no",
+      secondMainImage: "/news/launch-1.jpg",
+      gallery: [
+        {
+          type: "image",
+          url: "/news/launch-1.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/launch-2.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/launch-3.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/launch-4.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/launch-5.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/launch-6.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/launch-7.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/launch-8.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/launch-9.jpg",
+          caption: "",
+        },
+        
+      ]
+    },
+    
+    "Launch": {
+      title: "LAUNCH VRC Signature Event @ Ohio",
+      description: "This week, we went back to Ohio for Launch, one of the strongest signature events with 72 strong teams.",
+      coverImage: "/news/launch-cover.jpg",
+      date: "Feb 16, 2024",
+      content: `This week, we went back to Ohio for Launch, one of the strongest signature events with 72 strong teams. This event holds global significance as eleven of the participating teams had already secured sports for the World Championships before states. Despite facing challenges including bad match schedule and unexpected incidents like pipe leaks and battery falls, our performance in the qualification rounds fell short, with losses in 4 out of 9 matches, resulting in a 32nd overall ranking in quals. In Skills, we did a bit better, managing to be 4th with a 359 total Skills score. For elimination rounds, however, we had a fantastic alliance with 99904B, the 4th seed. In the end, we made it all the way to Finals, barely losing the last two matches. Thanks to 7316X and 323V for two amazing Finals matches and to all the volunteers for organizing such an exciting event at the Great Lakes Science Center!
+
+Our achievement:
+
+Tournament Finalist
+Skills 4th overall`,
+      secondMain: "no",
+      secondMainImage: "/news/launch-1.jpg",
+      gallery: [
+        {
+          type: "image",
+          url: "/news/launch-1.jpg",
+          caption: "",
+        },
+        
+        
+      ]
+    },
+    "Framingham-2024": {
+      title: "Framingham VRC Over under February Tournament",
+      description: "",
+      coverImage: "/news/Framingham-2024-cover.jpg",
+      date: "Feb 4, 2024",
+      content: `Just one day after Gateway to the West, we attended a local competition at Framingham. Though we were tired, we managed to win all of our matches and secured 2nd place in the qualification round. In Skills, we also won 1st place overall. For elimination rounds, we partnered with the first seed, 9421W, winning the entire competition. Thanks to 9228C and 83149B for an amazing finals match! With our results, we also won another Excellence Award, giving us our second Triple Crown of the season! Thanks to all the volunteers for this amazing competition, and we’ll see you all at Regionals!
+
+Our Achievement:
+
+Excellence Award          
+Tournament Champion
+Robot Skills Champion `,
+      secondMain: "no",
+      secondMainImage: "/news/launch-1.jpg",
+      gallery: [
+        {
+          type: "video",
+          url: "https://www.youtube.com/embed/pIUWNui1bUo",
+          caption: "8889A February Weekend ReCap/Gateway",
+        },
+         {
+          type: "image",
+          url: "/news/Framingham-2024-1.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/Framingham-2024-2.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Framingham-2024-3.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Framingham-2024-4.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/Framingham-2024-5.jpg",
+          caption: "",
+        },
+
+        
+        
+      ]
+    },
+    "Gateway-2024": {
+      title: "Gateway to the West VRC Signature Event @ West Virginia",
+      description: "This week, we went back to Ohio for Launch, one of the strongest signature events with 72 strong teams.",
+      coverImage: "/news/Gateway-2024-cover.jpg",
+      date: "Feb 2, 2024",
+      content: `Held in West Virginia, Gateway to the West was another World-level Signature Event that we attended, containing many of the teams we saw from Kalahari. In qualification matches this time, we had a bad match schedule, however, we managed to secure a solid alliance with the 1st seed, Exobits. In the end, we became Finalists. Thank you to 19589A and 80508X for giving us two spectacular Finals matches! Thank you to all the volunteers and the US Navy for helping out with the event! We’ll see many of you again at Launch!
+
+Our Achievement:
+
+Tournament Finalist
+Skills 3rd overall`,
+      secondMain: "no",
+      secondMainImage: "/news/launch-1.jpg",
+      gallery: [
+        {
+          type: "video",
+          url: "https://www.youtube.com/embed/pIUWNui1bUo",
+          caption: "8889A February Weekend ReCap/Gateway",
+        },{
+          type: "image",
+          url: "/news/Gateway-2024-1.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Gateway-2024-2.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Gateway-2024-3.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Gateway-2024-4.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Gateway-2024-5.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Gateway-2024-6.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Gateway-2024-7.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Gateway-2024-8.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Gateway-2024-9.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Gateway-2024-10.jpg",
+          caption: "",
+        },
+      ]
+    },
+
+    "Kalahari-2024": {
+      title: "Kalahari Classic VRC Signature Event @ Ohio",
+      description: "",
+      coverImage: "/news/Kalahari-2024-cover.jpg",
+      date: "Jan 19, 2024",
+      content: `With 172 teams and held in Ohio, where some of the strongest VEX teams have always been, Kalahari was probably the most competitive event we would attend before Worlds. Considering that we were put in the division with 2/3 of all the strongest teams of the competition, we did well, losing only 1 qualification match and ranking 6th in quals overall. Thanks to a great alliance with 2011D, we managed to win the Round of 16 and barely lost to 2011K and 2011B in quarter-finals. In Skills, we managed to rank 7th overall! Thank you to all the teams and volunteers that made this such an incredible competition, and we can’t wait to see you at Launch!
+
+Our Achievement: Quarterfinalist`,
+      secondMain: "Yes",
+      secondMainImage: "/news/Kalahari-2024-long.jpg",
+      gallery: [
+        {
+          type: "image",
+          url: "/news/Kalahari-2024-1.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Kalahari-2024-2.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Kalahari-2024-3.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Kalahari-2024-4.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/Kalahari-2024-5.jpg",
+          caption: "",
+        },
+      ]
+    },
+
+    "Marlborough-2024": {
+      title: "Marlborough Robotics VRC Over/Under Tournament",
+      description: "",
+      coverImage: "/news/Marlborough-2024-cover.jpg",
+      date: "Jan 13, 2024",
+      content: `This Saturday we competed at Malborough HS Qualifier. We had a great day going 6-0 and ranked first. We picked 1898R and swept through elims and won the whole thing. We were also first in skills and also received the Excellence award giving us our first ever triple crown. Thanks a ton to our amazing alliance 1898R and @4024v_void and 2602K for a great finals match and thanks to the volunteers for a great event. Thanks everyone and see you at Kalahari!
+
+Achievement:
+
+Excellence Award          
+Tournament Champion
+Robot Skills Champion `,
+      secondMain: "no",
+      secondMainImage: "/news/launch-1.jpg",
+      gallery: [
+        {
+          type: "image",
+          url: "/news/Marlborough-2024-1.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/Marlborough-2024-2.jpg",
+          caption: "",
+        },
+        
+        
+      ]
+    },
+
+    "Wave-2024": {
+      title: "WAVE at WPI Signature Event @ Massachusetts",
+      description: "",
+      coverImage: "/news/wave-2024-cover.jpg",
+      date: "Nov 30, 2023",
+      content: `Wave At WPI. What an incredible event. We started the event with a loss but quickly got back and ended qualifications 9-1 and #1 in rankings with 8 AWP. We were also 1st in skills with a 359 combined putting us #6 in the world currently. We allianced with 9364C and won the whole thing! Thank you so much to the incredible @parkerbar_34 @9364ironeagles for alliancing with us. We also won think award. Thanks to @8829_catalyst and 9364A for two incredible finals matches. Thank you to the volunteers at WPI and see you at Kalahari!
+
+Achievement:
+
+Tournament Champion 
+Robot Skills Champion
+Think Award  `,
+      secondMain: "Yes",
+      secondMainImage: "/news/wave-2024-1.jpg",
+      gallery: [
+        {
+          type: "image",
+          url: "/news/wave-2024-1.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/wave-2024-2.jpg",
+          caption: "",
+        },{
+          type: "image",
+          url: "/news/wave-2024-3.jpg",
+          caption: "",
+        },
+        {
+          type: "image",
+          url: "/news/wave-2024-4.jpg",
+          caption: "",
+        },
+        {
+          type: "video",
+          url: "https://www.youtube.com/embed/-ynN2Vyl2R0",
+          caption: "Pits & Parts -8889A 99%",
+        },{
+          type: "video",
+          url: "https://www.youtube.com/embed/PnQzdq1Jfc4",
+          caption: "8889A WPI Reveal",
+        },
+        {
+          type: "video",
+          url: "https://www.youtube.com/embed/NVef6MA3bwg",
+          caption: "WAVE@WPI Winners Interview",
+        },
+        
+      ]
+    },
     // Add more articles here...
   };
 
@@ -959,7 +1436,9 @@ From educational demonstrations to inspiring conversations, the event was filled
                 {article.content}
               </p>
             </div>
-
+            <div>
+              {article.secondMain === "Yes" ? (<img src={article.secondMainImage} className="w-half h-140 object-cover rounded-lg shadow-md mb-8" />) : <></>}
+            </div>
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Gallery</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -46,6 +46,8 @@ const About = () => {
             About Numberosity
           </h1>
           <div className="max-w-4xl mx-auto mb-16">
+           
+          </div><div className="max-w-4xl mx-auto mb-16">
             <div className="bg-blue-50 rounded-xl p-8 border border-blue-100">
               <h2 className="font-['Roboto'] font-bold text-2xl text-[#0BA2D9] mb-4 text-center">
                 Our Mission
