@@ -242,17 +242,26 @@ const TeamPage = () => {
         "Framingham December MS Event Tournament Finalists",
         "Worlds Qualified",
       ],
+      
+      
       historicalAchievements: {
-        "2024": [
+        "2024-2025": [
           {
             achievement:[
-              "Multiple Tournament Quarterfinalist Appearances",
-        "Skills Challenge Top 20 Rankings",
-        "Consistent Tournament Participation",
-            ],
-            event: "skibidi",
-            date: "mar 16",
-          }
+              `🏆 Tournament Champions 
+               🏆 Robot Skills Champion  `,
+                  ],
+            event: "Framingham V5RC High Stakes MS Tournament  ",
+            date: "Jan 2025",
+            
+          },
+          {
+            achievement:[
+              `🏆 Tournament Finalist`,    ],
+                          
+            event: "Framingham V5RC High Stakes MS Tournament",
+            date: "Dec 2024",
+          },
         ]
         
       },
@@ -276,16 +285,30 @@ const TeamPage = () => {
         "Worlds Qualified",
       ],
       historicalAchievements: {
-        "2024": [
+        "2024-2025": [
           {
             achievement:[
-              "Multiple Tournament Quarterfinalist Appearances",
-        "Skills Challenge Top 20 Rankings",
-        "Consistent Tournament Participation",
-            ],
-            event: "skibidi",
-            date: "mar 16",
-          }
+              `🏆 Excellence Award 
+               🏆 Tournament Champion  `,
+                  ],
+            event: "High Stakes Winter Classic at Mashpee   ",
+            date: "2025",
+            
+          },
+          {
+            achievement:[
+              `🏆 Innovate Award`,    ],
+                          
+            event: "The Winter Classic at Abbott Lawrence Academy ",
+            date: "2025",
+          }, {
+            achievement:[
+              `🏆 Tournament Finalists
+               🏆 Innovate Award`,    ],
+                          
+            event: "North Ander High School   ",
+            date: "2025",
+          },
         ],
         },
       members: [
@@ -309,16 +332,51 @@ const TeamPage = () => {
         "Worlds Qualified",
       ],
       historicalAchievements: {
-        "2024": [
+        "2024-2025": [
           {
             achievement:[
-              "Multiple Tournament Quarterfinalist Appearances",
-        "Skills Challenge Top 20 Rankings",
-        "Consistent Tournament Participation",
-            ],
-            event: "skibidi",
-            date: "mar 16",
-          }
+              `🏆 Robot Skills Champion 
+              
+              `,    ],
+                          
+            event: "High Stakes Winter Classic at Mashpee Middle High School",
+            date: "Jan 2025",
+          },
+          {
+            achievement:[
+              `🏆 Robot Skills Champion 
+               `,    ],
+                          
+            event: "Framingham/iSTEAM V5RC High Stakes MS/HS Invitational: January MS/HS Invitational Tournament",
+            date: "Jan 2025",
+          },{
+            achievement:[
+              `🏆 Create Award 
+               
+              `,    ],
+                          
+            event: "Gateway to the West VEX V5 Robotics Competition Signature Event: High School",
+            date: "Jan 2025",
+          },
+          {
+            achievement:[
+              `🏆 Tournament Champions
+               🏆 Robot Skills Champion 
+              
+               `,    ],
+                          
+            event: "Bancroft V5RC High Stakes HS Tournament",
+            date: "Feb 2025",
+          },
+          {
+            achievement:[
+              `🏆 Build Award 
+               
+              `,    ],
+                          
+            event: "Massachusetts VEX V5 High School State Championship",
+            date: "Feb 2025",
+          },
         ],
         },
       members: [
