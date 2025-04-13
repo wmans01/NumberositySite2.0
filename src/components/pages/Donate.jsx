@@ -141,7 +141,7 @@ const Donate = () => {
                 <p className="text-gray-700 mb-4">
                   To donate using Zelle, you may pay to the account under:
                 </p>
-                <address className="text-gray-700 not-italic bg-gray-100 p-4 rounded-lg">
+                <address className="text-gray-700 not-italic bg-gray-100 p-4 rounded-lg text-[10pt] lg:text-[12pt]">
                   numberosityacademy@gmail.com
                 </address>
               </div>
@@ -434,7 +434,7 @@ const Donate = () => {
               <div className="max-w-4xl mx-auto bg-white rounded-lg overflow-hidden">
                 <iframe
                   src="https://docs.google.com/presentation/d/e/2PACX-1vQd4tqvvgxq35UoJTdTsNM_9VX9DSLhcw8Fsro5BsCVDhV1l0gyFgygbkgugxR_vQ/embed?start=false&amp;loop=false&amp;delayms=3000"
-                  className="aspect-[0.8/1] md:aspect-[0.8/1] h-[600px] md:h-[800px] mx-auto"
+                  className="aspect-[0.8/1] md:aspect-[0.8/1] h-[400px] md:h-[600px] lg:h-[800px] mx-auto"
                   frameBorder="0"
                   allowFullScreen
                 />
