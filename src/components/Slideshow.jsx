@@ -18,7 +18,8 @@ const ImageCarousel = () => {
   const images = [
     "/slideshow/banners.jpg",
     "/slideshow/cnc.jpg",
-    "/slideshow/dino.jpg",
+    "/slideshow/2.jpg",
+    "/slideshow/3.jpg",
     "/slideshow/drillpress.jpg",
     "/slideshow/laser.jpg",
     "/slideshow/plate.jpg",

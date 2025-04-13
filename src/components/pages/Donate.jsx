@@ -102,7 +102,7 @@ const Donate = () => {
               appreciate any help you can give us.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
                   Mail a Check
@@ -133,6 +133,15 @@ const Donate = () => {
                     Donate with PayPal
                   </a>
                 </div>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Donate With Zelle</h3>
+                <p className="text-gray-700 mb-4">
+                  To donate using Zelle, you may pay to the account under: 
+                </p>
+                <address className="text-gray-700 not-italic bg-gray-100 p-4 rounded-lg">
+                  numberosityacademy@gmail.com
+                </address>
               </div>
             </div>
           </section>
@@ -423,7 +432,7 @@ const Donate = () => {
               <div className="max-w-4xl mx-auto bg-white rounded-lg overflow-hidden">
                 <iframe
                   src="https://docs.google.com/presentation/d/e/2PACX-1vQd4tqvvgxq35UoJTdTsNM_9VX9DSLhcw8Fsro5BsCVDhV1l0gyFgygbkgugxR_vQ/embed?start=false&amp;loop=false&amp;delayms=3000"
-                  className="aspect-[0.8/1] md:aspect-[0.8/1] h-[600px] mx-auto"
+                  className="aspect-[0.8/1] md:aspect-[0.8/1] h-[600px] md:h-[800px] mx-auto"
                   frameBorder="0"
                   allowFullScreen
                 />

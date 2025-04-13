@@ -71,6 +71,8 @@ const Join = () => {
                           United States citizen or lawful permanent resident
                         </li>
                         <li>Must be at least five years old</li>
+                        <li>Check the award requirements here: <a target="_blank"
+                      rel="noopener noreferrer" href="https://presidentialserviceawards.gov/eligibility">PVSA Website</a></li>
                       </ul>
                     </div>
 

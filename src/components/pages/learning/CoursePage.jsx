@@ -495,7 +495,7 @@ Final project`,
           title: "Session 25",
           url: "https://www.youtube.com/embed/-nJVbno-25s",
           caption: "Numberosity Level 2 Workshop Session 25 Summary (05/25/2024）",
-          bullet_caption: `Today was the 25th session of the Level 2 course. We finished up our geometry unit, adding on some new knowledge about Power of a Point and its proof. We discussed how they may use the powerful theorem to find the solutions of several different problems, as well as practiced using it in several different cases. For review for our geometry quiz next week, students can use the slides to finish their practice and overview of all the concepts we went over during the geometry unit. It is linked here https://shorturl.at/by7vw.`,
+          bullet_caption: `Today was the 25th session of the Level 2 course. We finished up our geometry unit, adding on some new knowledge about Power of a Point and its proof. We discussed how they may use the powerful theorem to find the solutions of several different problems, as well as practiced using it in several different cases. For review for our geometry quiz next week, students can use the slides to finish their practice and overview of all the concepts we went over during the geometry unit. It is linked here <a> https://shorturl.at/by7vw. <a>`,
         },
         {
           title: "Session 26",
