@@ -480,7 +480,7 @@ const TeamPage = () => {
           </div>
 
           <div className="mb-16">
-            <div className="relative rounded-xl overflow-hidden shadow-lg md:h-[600px] h-[300px]">
+            <div className="relative rounded-xl overflow-hidden shadow-lg md:h-[600px] h-[250px]">
               <div className="absolute inset-0 bg-gray-200 animate-pulse"></div>
               <img
                 src={team.teamPhoto}
