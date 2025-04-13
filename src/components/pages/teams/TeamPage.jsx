@@ -480,12 +480,12 @@ const TeamPage = () => {
           </div>
 
           <div className="mb-16">
-            <div className="relative rounded-xl overflow-hidden shadow-lg h-[600px]">
+            <div className="relative rounded-xl overflow-hidden shadow-lg md:h-[600px] h-[300px]">
               <div className="absolute inset-0 bg-gray-200 animate-pulse"></div>
               <img
                 src={team.teamPhoto}
                 alt={`${team.name} team photo`}
-                className="w-full h-full object-cover relative z-10"
+                className="md:w-full w-screen h-full object-cover relative z-10"
                 loading="lazy"
               />
             </div>
