@@ -8,18 +8,20 @@ const CoursePage = () => {
 
   useEffect(() => {
     document.title = "Course Details | Numberosity Academy";
+    window.scrollTo(0, 0);
   }, []);
 
   const courseData = {
     "cad-2023": {
       title: "CAD & 3D Modeling 2023",
-      caption: "This class will aim to provide an understanding of the benefits and processes of CAD, and is open to students with none or little experience in mechanics/designing. Students already familiar with CAD can still take this course, but may not find it very challenging. It will be at a relatively laid-back pace, but all class material will be shared and students should make sure they turn in homework ahead of time. For this Class, we will be using Autodesk’s Fusion 360 as a beginner CAD software in which students will write their code. ",
+      caption:
+        "This class will aim to provide an understanding of the benefits and processes of CAD, and is open to students with none or little experience in mechanics/designing. Students already familiar with CAD can still take this course, but may not find it very challenging. It will be at a relatively laid-back pace, but all class material will be shared and students should make sure they turn in homework ahead of time. For this Class, we will be using Autodesk’s Fusion 360 as a beginner CAD software in which students will write their code. ",
       category: "CAD & 3D Modeling",
       videos: [
         {
           title: "Introduction",
           url: "https://www.youtube.com/embed/TYONyCcYzak",
-          caption: "Day 1 (7/25): Introduction" ,
+          caption: "Day 1 (7/25): Introduction",
           bullet_caption: `Introduction to CAD and F360
 Download the Software
 Simple Camera Movement
@@ -89,7 +91,7 @@ Circular pattern
 Rectangular pattern
 Offset`,
         },
-        
+
         {
           title: "Last Day",
           url: "https://www.youtube.com/embed/CYOoJIqOdg4",
@@ -102,7 +104,8 @@ Automated modeling if have time`,
     },
     "cad-2024": {
       title: "CAD & 3D Modeling 2024",
-      caption: "Unlock the boundless possibilities of creation! We are thrilled to announce the 2nd-year summer offering of the “Intro to CAD/3D Modeling Course”! Step-by-step guidance for beginners to learn how to use CAD software, design 3D models of everyday objects, characters and more.",
+      caption:
+        "Unlock the boundless possibilities of creation! We are thrilled to announce the 2nd-year summer offering of the “Intro to CAD/3D Modeling Course”! Step-by-step guidance for beginners to learn how to use CAD software, design 3D models of everyday objects, characters and more.",
       category: "CAD & 3D Modeling",
       videos: [
         {
@@ -153,7 +156,8 @@ Documentation`,
     },
     "python-2023": {
       title: "Intro to Python 2023",
-      caption: "This class will aim to provide an understanding of the core mechanics of programming through the Python programming language, and is open to students with none or little experience in programming. Students already familiar with other programming languages can still take this course, but may find it not very challenging. It will be relatively fast-paced, but all class material will be shared and students should feel free to review the slides or do some additional work on their Replit repositories outside of or after the class has ended.",
+      caption:
+        "This class will aim to provide an understanding of the core mechanics of programming through the Python programming language, and is open to students with none or little experience in programming. Students already familiar with other programming languages can still take this course, but may find it not very challenging. It will be relatively fast-paced, but all class material will be shared and students should feel free to review the slides or do some additional work on their Replit repositories outside of or after the class has ended.",
       category: "Programming",
       videos: [
         {
@@ -205,7 +209,8 @@ Final project`,
     },
     "weekly-math": {
       title: "Weekly 30 Min Fun Math Lecture",
-      caption: "Join our Weekly 30-Minute Fun Math Lecture. Each lecture will be a time for students to explore interesting real-world problems or ones that some people are studying around the world today! We will make sure that the skill level for each lecture is appropriate for any skill level, and only very basic level thinking is required. We will guide you through everything!",
+      caption:
+        "Join our Weekly 30-Minute Fun Math Lecture. Each lecture will be a time for students to explore interesting real-world problems or ones that some people are studying around the world today! We will make sure that the skill level for each lecture is appropriate for any skill level, and only very basic level thinking is required. We will guide you through everything!",
       category: "Mathematics",
       videos: [
         {
@@ -344,55 +349,64 @@ Final project`,
     },
     "competition-math": {
       title: "Competition Math (Level 2)",
-      caption: "This is a faster-paced class for those more interested in competition-based math and developing critical-thinking skills (e.g. AMC 8/Mathcounts level)",
+      caption:
+        "This is a faster-paced class for those more interested in competition-based math and developing critical-thinking skills (e.g. AMC 8/Mathcounts level)",
       category: "Mathematics",
       videos: [
         {
           title: "Session 1",
           url: "https://www.youtube.com/embed/V0qgAmXcpUc",
-          caption: "Numberosity Level 2 Workshop Session 1 Summary (09/09/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 1 Summary (09/09/2023)",
           bullet_caption: `Today, we started the first session of the Numberosity Level 2 class! We first went over introductions, class structure, expectations, and did a few warm-up problems. We also started a review of prealgebra, starting out with faster techniques to solve different addition/subtraction problems, as well as arithmetic sequences.`,
         },
         {
           title: "Session 2",
           url: "https://www.youtube.com/embed/D_odLEag-MI",
-          caption: "Numberosity Level 2 Workshop Session 2 Summary (09/16/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 2 Summary (09/16/2023)",
           bullet_caption: `Today, we finished the 2nd session of the Numberosity Level 2 class! We started off with a review of previous topics and went on to discussing faster multiplication/division methods. Later, we discussed geometric series and sequences and finished off with some practice.`,
         },
         {
           title: "Session 3",
           url: "https://www.youtube.com/embed/uTLcRykK73Q",
-          caption: "Numberosity Level 2 Workshop Session 3 Summary (09/23/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 3 Summary (09/23/2023)",
           bullet_caption: `Today was our 3rd session of the Level 2 class. We started by solving a few warm-up algebra puzzles, reviewed previous multiplication/division methods, and learned about parity. We also examined a few proofs that use parity, such as proving that one can never cycle back to the start top left room in a 3×3 grid of rooms. In our practice problems, we covered both new material and old (such as the difference of squares), making sure that the students understood everything from previous classes and today.`,
         },
         {
           title: "Session 4",
           url: "https://www.youtube.com/embed/sVQJtpiwuTM",
-          caption: "Numberosity Level 2 Workshop Session 4 Summary (09/30/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 4 Summary (09/30/2023)",
           bullet_caption: `This week, we had our 4th session of the Level 2 class. We started by solving a few warm-up puzzles that involve detecting patterns and reviewing parity problems. For our lecture, we started discussing fractions, decimals, and percents, specifically looking at comparing fractions, telescoping sums, repeating decimals, and percents of change. For each concept, we also tried several different practice problems.`,
         },
         {
           title: "Session 5",
           url: "https://www.youtube.com/embed/9zFDTZjHA40",
-          caption: "Numberosity Level 2 Workshop Session 5 Summary (10/14/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 5 Summary (10/14/2023)",
           bullet_caption: `This week was our 5th session of the Level 2 class. Once again, we started with a few warm-up problems and did a thorough review of what we learned before the break. Then, we focused on understanding and doing problems with precents.Stars and Bars`,
         },
         {
           title: "Session 6",
           url: "https://www.youtube.com/embed/OcRRBKQaxUU",
-          caption: "Numberosity Level 2 Workshop Session 6 Summary (10/21/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 6 Summary (10/21/2023)",
           bullet_caption: `This week was our 6th session of the Level 2 class. We first warmed up with a few puzzles. Then, we learned about ratios and rates and some of the strategies to solving them, trying out some practice problems at the end.`,
         },
         {
           title: "Session 7",
           url: "https://www.youtube.com/embed/0XxHFXz3UKI",
-          caption: "Numberosity Level 2 Workshop Session 7 Summary (10/28/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 7 Summary (10/28/2023)",
           bullet_caption: `This week was our 7th session of the Level 2 class. We practiced solving more problems with ratios, rates, and proportions and started talking about exponent properties. Specifically, we looked into fractional exponents and negative exponents, practicing the concepts on several challenging practice problems.`,
         },
         {
           title: "Session 8",
           url: "https://www.youtube.com/embed/v1pbQdBcG_s",
-          caption: "Numberosity Level 2 Workshop Session 8 Summary (11/18/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 8 Summary (11/18/2023)",
           bullet_caption: `This was our 8th session of the Level 2 class. We looked into radicals and their relations to exponents, practicing several challenging problems that combine the two.`,
         },
         {
@@ -404,195 +418,226 @@ Final project`,
         {
           title: "Session 10",
           url: "https://www.youtube.com/embed/JpOyKxVtEnc",
-          caption: "Numberosity Level 2 Workshop Session 10 Summary (12/9/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 10 Summary (12/9/2023)",
           bullet_caption: `Today, we learned about different forms of linear equations (slope-intercept, point-slope, and standard forms). We also discussed different types of lines (parallel, the same line, perpendicular lines, and lines that intersect at one point) and their properties.`,
         },
         {
           title: "Session 11",
           url: "https://www.youtube.com/embed/8LeL3Lhxl9M",
-          caption: "Numberosity Level 2 Workshop Session 11 Summary (12/16/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 11 Summary (12/16/2023)",
           bullet_caption: `For the 11th session, we examined linear inequalities and described ways to solve them both algebraically and geometrically. Students practiced graphing their own graphs to show the regions for the solutions of the inequality while using algebra to verify results. `,
         },
         {
           title: "Session 12",
           url: "https://www.youtube.com/embed/U-dROOvYixo",
-          caption: "Numberosity Level 2 Workshop Session 12 Summary (01/06/2023)",
+          caption:
+            "Numberosity Level 2 Workshop Session 12 Summary (01/06/2023)",
           bullet_caption: `Today was the 12th session of the level 2 class. We focused on using inequalities to solve optimization problems with several constraints and conditions. We discussed the main strategies to deal with such problems and did some problems to practice. `,
         },
         {
           title: "Session 13",
           url: "https://www.youtube.com/embed/pPywxSFdG1A",
-          caption: "Numberosity Level 2 Workshop Session 13 Summary (01/13/2024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 13 Summary (01/13/2024)",
           bullet_caption: `For lesson 13, we started looking into quadratics, developing an understanding and intuition for how to solve them. We learned ways to factor quadratics, as well as why we can use the method to solve them.`,
         },
         {
           title: "Session 14",
           url: "https://www.youtube.com/embed/7U_aofF3ZGI",
-          caption: "Numberosity Level 2 Workshop Session 14 Summary (01/27/2024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 14 Summary (01/27/2024)",
           bullet_caption: `For lesson 14, we examined graphs of quadratics and how we draw them based on how we manipulate certain coefficients. We also discussed the method of “completing the square” and how it gives insight into the vertex point of the quadratic (as well as the quadratic formula).`,
         },
         {
           title: "Session 15",
           url: "https://www.youtube.com/embed/Qjjua1dcIjw",
-          caption: "Numberosity Level 2 Workshop Session 15 Part 1 Summary (02/10/2024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 15 Part 1 Summary (02/10/2024)",
           bullet_caption: `For lesson 15, we started a review of the entire algebra unit, practicing the methods and formulas that we learned from lessons 1-14. Students were able to practice with many problems on their own and we went over all other problems at the end of class.`,
         },
         {
           title: "Session 16",
           url: "https://www.youtube.com/embed/iF_lZq1h6zo",
-          caption: "Numberosity Level 2 Workshop Session 16 Summary (02/24/2024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 16 Summary (02/24/2024)",
           bullet_caption: `Today, we went over a quick review of all the concepts from the algebra unit. Then, the students took a quiz. Please go to https://forms.gle/M5rXT8ESGsVbSVn58 if you missed the quiz during class and want to do the quiz in your own time!`,
         },
         {
           title: "Session 17",
           url: "https://www.youtube.com/embed/ZtAvPiLvgwc",
-          caption: "Numberosity Level 2 Workshop Session 17 Summary (03/02/024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 17 Summary (03/02/024)",
           bullet_caption: `Today was the first day of our geometry unit! We went over angles and parallel lines, practicing several angle-chasing problems along the way. We also started discussing types of congruent triangles and how to prove they are congruent.`,
         },
         {
           title: "Session 18",
           url: "https://www.youtube.com/embed/psDSeW-NpT8",
-          caption: "Numberosity Level 2 Workshop Session 18 Summary (03/09/2024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 18 Summary (03/09/2024)",
           bullet_caption: `Today was our 18th session of the Level 2 class. We completed our discussions and practice problems on congruent triangles and moved on to special triangles (specifically, isosceles and equilateral triangle theorems).`,
         },
         {
           title: "Session 19",
           url: "https://www.youtube.com/embed/eBbIGVEM-x4",
-          caption: "Numberosity Level 2 Workshop Session 19  Summary (03/16/024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 19  Summary (03/16/024)",
           bullet_caption: `For session 19 of our Level 2 class, we started discussing similar triangles and the different types of similarity that we can prove (AA, SAS, and SSS similarity). All the students had some opportunities to try some problems related to triangle similarity on their own.`,
         },
         {
           title: "Session 20",
           url: "https://www.youtube.com/embed/WwSv53kCgdE",
-          caption: "Numberosity Level 2 Workshop Session 20 Summary (03/23/2024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 20 Summary (03/23/2024)",
           bullet_caption: `For session 20, we went over the Pythagorean Theorem and special types of right triangles- specifically, the 30-60-90 and 45-45-90 triangles. We looked into special properties of their side lengths and examined how to use them in several practice problems.`,
         },
         {
           title: "Session 21",
           url: "https://www.youtube.com/embed/VKqlUpKjDVU",
-          caption: "Numberosity Level 2 Workshop Session 21 Summary (04/06/2024）",
+          caption:
+            "Numberosity Level 2 Workshop Session 21 Summary (04/06/2024）",
           bullet_caption: `For session 21, we started discussing perpendicular bisectors and angle bisectors of triangles. We examined and proved several of the theorems associated with either property and tried several practice problems that use the theorems that we discussed.`,
         },
         {
           title: "Session 22",
           url: "https://www.youtube.com/embed/7GLATXS3rzs",
-          caption: "Numberosity Level 2 Workshop Session 22 Summary (04/27/2024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 22 Summary (04/27/2024)",
           bullet_caption: `Today was the 22nd session of the Level 2 class. We continued discussing angle bisectors of triangles and looked into the Angle Bisector Theorem. Students tried several problems to apply this theorem. Afterward, we also discussed proofs of the medians and heights of a triangle being concurrent, meaning that they meet at the same point.`,
         },
         {
           title: "Session 23",
           url: "https://www.youtube.com/embed/XCJxp-60SBI",
-          caption: "Numberosity Level 2 Workshop Session 23 Summary (05/04/2024）",
+          caption:
+            "Numberosity Level 2 Workshop Session 23 Summary (05/04/2024）",
           bullet_caption: `For the 23rd session of the course, we started discussing quadrilaterals and their special properties. We looked into trapezoids and the special case of isosceles trapezoids, parallelograms that have bisecting diagonals, and rhombi that have perpendicular diagonals. Students also had the opportunity to try out the new theorems and properties on several geometry problems.`,
         },
         {
           title: "Session 24",
           url: "https://www.youtube.com/embed/qf468g-yNoU",
-          caption: "Numberosity Level 2 Workshop Session 24 Summary (05/11/2024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 24 Summary (05/11/2024)",
           bullet_caption: `Today was the 24th session of the Level 2 course. We reviewed several main properties of circles, including the areas and perimeters of different sectors or arcs, and discussed other strategies for finding funky areas. We also specifically looked into angles and their properties on a circle (such as inscribed angles or how they relate to outside arcs). In addition, we looked into how those theorems also applied to tangents.`,
         },
         {
           title: "Session 25",
           url: "https://www.youtube.com/embed/-nJVbno-25s",
-          caption: "Numberosity Level 2 Workshop Session 25 Summary (05/25/2024）",
+          caption:
+            "Numberosity Level 2 Workshop Session 25 Summary (05/25/2024）",
           bullet_caption: `Today was the 25th session of the Level 2 course. We finished up our geometry unit, adding on some new knowledge about Power of a Point and its proof. We discussed how they may use the powerful theorem to find the solutions of several different problems, as well as practiced using it in several different cases. For review for our geometry quiz next week, students can use the slides to finish their practice and overview of all the concepts we went over during the geometry unit. It is linked here <a> https://shorturl.at/by7vw. <a>`,
         },
         {
           title: "Session 26",
           url: "https://www.youtube.com/embed/ZIDCTD1ZpFc",
-          caption: "Numberosity Level 2 Workshop Session 26 Summary (06/01/2024)",
+          caption:
+            "Numberosity Level 2 Workshop Session 26 Summary (06/01/2024)",
           bullet_caption: `Today was the final session of the Level 2 course! We finished a quick review of all the concepts we learned about this unit and went straight into a quiz. Then, we reviewed all the next steps that students can do in order to explore further into math and said our goodbyes! If anyone missed the quiz, please do it with pencil, paper, and a calculator in 40 minutes at this link here: https://forms.gle/qz1QtQ3vCtkWk6Uo9.`,
         },
       ],
     },
     "enrichment-math": {
       title: "Enrichment Math (Level 1)",
-      caption: "This is a slower-paced class for those wanting a more guided experience to learn the concepts more deeply (math enrichment)Numberosity Level 2 Workshop Session 26 Summary (06/01/2024)",
-          category: "Mathematics",
+      caption:
+        "This is a slower-paced class for those wanting a more guided experience to learn the concepts more deeply (math enrichment)Numberosity Level 2 Workshop Session 26 Summary (06/01/2024)",
+      category: "Mathematics",
       videos: [
         {
           title: "Session 1",
           url: "https://www.youtube.com/embed/c_c11pOIb1E",
-          caption: "Numberosity Level 1 Workshop Session 1 Summary (09/09/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 1 Summary (09/09/2023)",
           bullet_caption: `Today, we began our first session of our Numberosity Level 1 workshop! First, we went over how the class was going to work. This class will broadly follow the Art of Problem Solving Prealgebra book, so expect to see most concepts covered there covered in this course. (You should not buy the book, it just has what we expect to cover.) We then started looking at basic operations. Today, we went over how operations work, the order of operations, exponents, negative exponents and exponents of zero. We finished off with some practice problems.`,
-        
         },
         {
           title: "Session 2",
           url: "https://www.youtube.com/embed/OzWz9J4okQ0",
-          caption: "Numberosity Level 1 Workshop Session 2 Summary (09/16/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 2 Summary (09/16/2023)",
           bullet_caption: `Today, we began our 2nd session of the Level 1 workshop! First, we reviewed concepts from last week such as order of operations, exponents of 0, and negative exponents. We then began looking at the distributive property and factoring. We finished by learning how to do big sums like 1+2+3+…+100 quickly.`,
         },
         {
           title: "Session 3",
           url: "https://www.youtube.com/embed/t8-UogN90Pc",
-          caption: "Numberosity Level 1 Workshop Session 3 Summary (09/23/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 3 Summary (09/23/2023)",
           bullet_caption: `Today was our 3rd session of the Level 1 workshop. We first reviewed the distributive property, factoring, and adding sums like 1+2+…+100 quickly. We then began learning the basics of algebra! We defined variables, expressions, equations, simplification, coefficients, constants, and more. An important rule we went over was that you can do the same thing to both sides of the equation to still get a valid equation. We finished off with several practice problems.`,
         },
         {
           title: "Session 4",
           url: "https://www.youtube.com/embed/4L2Yy7TZxFI",
-          caption: "Numberosity Level 1 Workshop Session 4 Summary (09/30/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 4 Summary (09/30/2023)",
           bullet_caption: `Today was our 4th session of the Level 1 workshop. We first reviewed basic algebra terminology and did some practice problems. We then looked at systems of equations and discussed 2 main methods of solving them: elimination and substitution. We also did several practice problems solving systems of equations ourselves.`,
         },
         {
           title: "Session 5",
           url: "https://www.youtube.com/embed/vpKdtRkSjlQ",
-          caption: "Numberosity Level 1 Workshop Session 5 Summary (10/14/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 5 Summary (10/14/2023)",
           bullet_caption: `This was our 5th session of the Level 1 workshop. Today we focused on really practicing and reviewing our algebra through lots of problems. We practiced solving equations and systems of equations with elimination and substitution.`,
         },
         {
           title: "Session 6",
           url: "https://www.youtube.com/embed/Ua5LEWKSyiU",
-          caption: "Numberosity Level 1 Workshop Session 6 Summary (10/21/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 6 Summary (10/21/2023)",
           bullet_caption: `This was our 6th Level 1 workshop session. Today we reviewed solving systems of equations with substitution and elimination. Then we looked at how algebra can be used to solve word problems. We broke down the general process used to convert word problems into systems of equations and solving them. We also did a few practice problems.`,
         },
         {
           title: "Session 7",
           url: "https://www.youtube.com/embed/pe4WY_qIw5Q",
-          caption: "Numberosity Level 1 Workshop Session 7 Summary (10/28/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 7 Summary (10/28/2023)",
           bullet_caption: `This was our 7th Level 1 workshop session. Today we practiced solving many word problems using algebra. We then practiced a specific type word problem involving ratios and rates. We finished off with a few (quite challenging!) practice problems.`,
         },
         {
           title: "Session 8",
           url: "https://www.youtube.com/embed/GpBPq7OWaVw",
-          caption: "Numberosity Level 1 Workshop Session 8 Summary (11/18/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 8 Summary (11/18/2023)",
           bullet_caption: `This was the 8th session of the Level 1 workshop. Today we continued to review and practice problems involving speed, ratios, rates, and proportions. We then introduced percents and percent of change and solved some practice problems involving those concepts. Next week we will be having a review day to prepare for the end of our Algebra unit!`,
         },
         {
           title: "Session 9",
           url: "https://www.youtube.com/embed/NfkWq3Rrruk",
-          caption: "Numberosity Level 1 Workshop Session 9 Summary (12/02/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 9 Summary (12/02/2023)",
           bullet_caption: `This was the 9th session of the Level 1 workshop. Today was a review day! We reviewed the overarching concepts behind all the topics we’ve covered since the beginning of the Level 1 workshop, and did many practice problems involving these concepts. Next week will be our quiz.`,
         },
         {
           title: "Session 11",
           url: "https://www.youtube.com/embed/JfJw5N7KyLE",
-          caption: "Numberosity Level 1 Workshop Session 11 Summary (12/16/2023)",
+          caption:
+            "Numberosity Level 1 Workshop Session 11 Summary (12/16/2023)",
           bullet_caption: `Today was the 1st class of our new Geometry unit and the 11th session of the Numberosity Level 1 workshop! We began our unit by looking at angles, lines, parallel lines, triangles, and right triangles. We left off on practice problems on the Pythagorean Theorem.`,
         },
         {
           title: "Session 12",
           url: "https://www.youtube.com/embed/sjrMp-EEYss",
-          caption: "Numberosity Level 1 Workshop Session 12 Summary (01/06/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 12 Summary (01/06/2024)",
           bullet_caption: `Today was the 12th session of the Level 1 workshop. Seeing as we just had a long 2-week holiday break, we first thoroughly reviewed our 1st class of Geometry. We went back over angles, parallel lines, triangles, and the Pythagorean Theorem. We also introduced a new concept, the Triangle Inequality.`,
         },
         {
           title: "Session 13",
           url: "https://www.youtube.com/embed/nx7kYi5PB2k",
-          caption: "Numberosity Level 1 Workshop Session 13 Summary (01/13/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 13 Summary (01/13/2024)",
           bullet_caption: `Today was our 13th session of the Level 1 workshop.We quickly reviewed the Pythagorean Theorem and the Triangle Inequality with some practic problems. Then, we began to look at polygons. We went over how to find the sum of all angles in an n-sided polygon and did some problems for practice. We also went over different types of quadrilaterals.`,
         },
         {
           title: "Session 14",
           url: "https://www.youtube.com/embed/CY551kQwkWc",
-          caption:"Numberosity Level 1 Workshop Session 14 Summary (01/27/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 14 Summary (01/27/2024)",
           bullet_caption: `Today was the 14th session of the Level 1 workshop.We reviewed the Triangle Inequality, polygons, and the polygon sum of angles formula. We also reviewed quadrilateral properties. We finished off by doing some practice problems.`,
         },
         {
           title: "Session 15",
           url: "https://www.youtube.com/embed/x6wjpm86kv8",
-          caption: "Numberosity Level 1 Workshop Session 15 Summary (02/17/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 15 Summary (02/17/2024)",
           bullet_caption: `Today was the 15th session of the Level 1 workshop. Today, we spent the time reviewing past material (including polygons, sum of angles of polygons, quadrilateral properties, Triangle Inequality, etc.) with many practice problems.`,
         },
         {
@@ -604,55 +649,64 @@ Final project`,
         {
           title: "Session 17",
           url: "https://www.youtube.com/embed/ztJRGOJ3HRs",
-          caption: "Numberosity Level 1 Workshop Session 17 Summary (03/02/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 17 Summary (03/02/2024)",
           bullet_caption: `Today was the 17th session of the Level 1 workshop. We first reviewed similar triangles. Then we went into circles, discussing arcs, inscribed angles, tangents, and more.`,
         },
         {
           title: "Session 18",
           url: "https://www.youtube.com/embed/jUDC4raAGVc",
-          caption: "Numberosity Level 1 Workshop Session 18 Summary (03/09/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 18 Summary (03/09/2024)",
           bullet_caption: `Today was the 18th session of the Level 1 workshop. We first reviewed circles and their properties, reviewing facts about arcs, inscribed angles, tangents, etc. We then began doing problems involving area and perimeter of circles.`,
         },
         {
           title: "Session 19",
           url: "https://www.youtube.com/embed/5fx_ksEOZJ0",
-          caption: "Numberosity Level 1 Workshop Session 19 Summary (03/16/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 19 Summary (03/16/2024)",
           bullet_caption: `Today was the 19th session of the Level 1 workshop. We first reviewed area and perimeter of circles and did problems involving those concepts. We then briefly talked about triangle congruence.`,
         },
         {
           title: "Session 20",
           url: "https://www.youtube.com/embed/KzagGUL2vAo",
-          caption: "Numberosity Level 1 Workshop Session 20 Summary (03/23/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 20 Summary (03/23/2024)",
           bullet_caption: `Today was the 20th session of the Level 1 workshop. Today, we reviewed right triangles and the Pythagorean Theorem with some practice problems. We also looked at right triangles in 3D and how to ‘unroll’ 3D shapes to find lengths, such as cones.`,
         },
         {
           title: "Session 21",
           url: "https://www.youtube.com/embed/ecqN_tKeTes",
-          caption: "Numberosity Level 1 Workshop Session 21 Summary (04/06/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 21 Summary (04/06/2024)",
           bullet_caption: `Today was the 21st session of the Level 1 workshop. Today, we prepared for the upcoming quiz on our Geometry unit. We reviewed the topics of Pythagorean theorem and special right triangles by doing problems involving them.`,
         },
         {
           title: "Session 22",
           url: "https://www.youtube.com/embed/ao6pMz9TNJU",
-          caption: "Numberosity Level 1 Workshop Session 22 Summary (04/27/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 22 Summary (04/27/2024)",
           bullet_caption: `Today was the 22nd session of the Level 1 workshop. Today, we continued to prepare for the upcoming quiz on our Geometry unit. As we had not met for a while, we re-reviewed the topics of Pythagorean theorem and special right triangles this week by doing problems involving them.`,
         },
         {
           title: "Session 23",
           url: "https://www.youtube.com/embed/qaGUW9Bb-0E",
-          caption: "Numberosity Level 1 Workshop Session 23 Summary (05/04/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 23 Summary (05/04/2024)",
           bullet_caption: `Today was the 23rd session of the Level 1 workshop. This session we kept working to prepare for the upcoming Geometry unit quiz. We reviewed the concept of special right triangles by doing many problems involving them. We finished off with some Triangle Inequality review.`,
         },
         {
           title: "Session 24",
           url: "https://www.youtube.com/embed/FBIcm5enlDQ",
-          caption: "Numberosity Level 1 Workshop Session 24 Summary (05/11/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 24 Summary (05/11/2024)",
           bullet_caption: `Today was the 24th session of the Level 1 workshop, in which we continued to prepare for the upcoming quiz on our Geometry unit. We first reviewed the Triangle Inequality, doing a few problems involving the concept. Then, we reviewed angle chasing with some problems. We went over the concepts of parallel lines creating congruent angles and the polygon angle sum formula in the process.`,
         },
         {
           title: "Session 25",
           url: "https://www.youtube.com/embed/_RdUSKqoAZQ",
-          caption: "Numberosity Level 1 Workshop Session 25 Summary (05/25/2024)",
+          caption:
+            "Numberosity Level 1 Workshop Session 25 Summary (05/25/2024)",
           bullet_caption: `Today was the 25th session of the Level 1 workshop. Today, we continued to prepare for the Geometry unit quiz next week. We first reviewed triangle similarity and congruence, reviewing AA, SSS, and SAS triangle similarity and SSS, SAS, ASA, and AAS congruence. We then worked on some problems involving AA, SSS, and SAS triangle similarity. We finished off with some simple 3D Pythagorean practice problems.`,
         },
       ],
@@ -660,14 +714,14 @@ Final project`,
     mathcounts: {
       title: "Mathcounts/AMC8",
       category: "Mathematics",
-      caption: "This class series is for middle school students who love math and are interested in learning more beyond the normal school curriculum. It will also provide a solid foundation for those going into competition math. Targeted toward 5th-8th grade students, the course started in Oct. 2022 and will last until the summer of 2023, covering the following two materials..",
-          videos: [
+      caption:
+        "This class series is for middle school students who love math and are interested in learning more beyond the normal school curriculum. It will also provide a solid foundation for those going into competition math. Targeted toward 5th-8th grade students, the course started in Oct. 2022 and will last until the summer of 2023, covering the following two materials..",
+      videos: [
         {
           title: "Session 1: Combinatorics",
           url: "https://www.youtube.com/embed/hql_qgU3GpE",
           caption: "Competition Math Workshop Session 1 Summary (11/11/2022)",
           bullet_caption: `We first reviewed problems students found hard on last week’s homework. Then, we did a timed practice test to see people’s baseline experience with competition math. Finally, we looked at some important ideas in counting, such as casework and permutations.`,
-        
         },
         {
           title: "Session 2: Combinatorics",
@@ -850,12 +904,12 @@ We will start our Algebra Unit Next week. In addition, I would greatly appreciat
     "intro-math": {
       title: "Fun Introductory Math",
       category: "Mathematics",
-      caption: "This series provides an introduction into the Middle School Competition Math Series courses. They examine several different puzzles and problems that can be found within mathematics and are specifically created to stimulate interest in math.",
-          videos: [
+      caption:
+        "This series provides an introduction into the Middle School Competition Math Series courses. They examine several different puzzles and problems that can be found within mathematics and are specifically created to stimulate interest in math.",
+      videos: [
         {
           title: "Class 1",
           url: "https://www.youtube.com/embed/OEpPhsZ6I-4",
-          
         },
         {
           title: "Class 2",
@@ -866,8 +920,9 @@ We will start our Algebra Unit Next week. In addition, I would greatly appreciat
     "sat-workshops": {
       title: "SAT Workshops",
       category: "Mathematics",
-      caption: "This 3-day SAT Math Workshop is fast-paced overview of the math portion of the SAT, covering different strategies and many topics you need to know in order to improve your score on SAT",
-          videos: [
+      caption:
+        "This 3-day SAT Math Workshop is fast-paced overview of the math portion of the SAT, covering different strategies and many topics you need to know in order to improve your score on SAT",
+      videos: [
         {
           title: "Class 1",
           url: "https://www.youtube.com/embed/Vp5cVUHAV3k",
@@ -990,10 +1045,15 @@ We will start our Algebra Unit Next week. In addition, I would greatly appreciat
                     allowFullScreen
                   ></iframe>
                 </div>
-                <h4 className = "font-['Roboto'] text-gray-900 mt-4">{video.caption}</h4>
+                <h4 className="font-['Roboto'] text-gray-900 mt-4">
+                  {video.caption}
+                </h4>
                 <h4 className="font-['Roboto'] text-gray-900 mt-4 whitespace-pre-line">
-                  
-                  {video.bullet_caption !== undefined ? ("• " + video.bullet_caption)?.replaceAll("\n", "\n • ") : <></>}
+                  {video.bullet_caption !== undefined ? (
+                    ("• " + video.bullet_caption)?.replaceAll("\n", "\n • ")
+                  ) : (
+                    <></>
+                  )}
                 </h4>
               </div>
             ))}

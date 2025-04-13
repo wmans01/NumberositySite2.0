@@ -5,6 +5,7 @@ import NavHeader from "/src/components/NavHeader.jsx";
 const Teams = () => {
   useEffect(() => {
     document.title = "Our Teams | Numberosity Academy";
+    window.scrollTo(0, 0);
   }, []);
 
   const teams = [

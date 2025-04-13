@@ -5,6 +5,7 @@ import NavHeader from "/src/components/NavHeader.jsx";
 const RoboBridge = () => {
   useEffect(() => {
     document.title = "RoboBridge Program | Numberosity Academy";
+    window.scrollTo(0, 0);
   }, []);
 
   return (

@@ -13,6 +13,7 @@ import NavHeader from "/src/components/NavHeader.jsx";
 const AboutPeople = () => {
   useEffect(() => {
     document.title = "Our People | Numberosity Academy";
+    window.scrollTo(0, 0);
   }, []);
   const [stars, setStars] = useState([]);
   const [eyes, setEyes] = useState([]);

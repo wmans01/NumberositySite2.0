@@ -17,6 +17,7 @@ import NavHeader from "/src/components/NavHeader.jsx";
 const About = () => {
   useEffect(() => {
     document.title = "About Us | Numberosity Academy";
+    window.scrollTo(0, 0);
   }, []);
 
   const sections = [
@@ -45,9 +46,8 @@ const About = () => {
           <h1 className="font-['Roboto'] font-bold text-4xl text-gray-900 mb-12 text-center">
             About Numberosity
           </h1>
+          <div className="max-w-4xl mx-auto mb-16"></div>
           <div className="max-w-4xl mx-auto mb-16">
-           
-          </div><div className="max-w-4xl mx-auto mb-16">
             <div className="bg-blue-50 rounded-xl p-8 border border-blue-100">
               <h2 className="font-['Roboto'] font-bold text-2xl text-[#0BA2D9] mb-4 text-center">
                 Our Mission

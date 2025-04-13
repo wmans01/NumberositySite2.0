@@ -7,6 +7,7 @@ const TeamPage = () => {
 
   useEffect(() => {
     document.title = "Team Details | Numberosity Academy";
+    window.scrollTo(0, 0);
   }, []);
 
   // Team data - this would be replaced with actual data fetching

@@ -5,6 +5,7 @@ import NavHeader from "/src/components/NavHeader.jsx";
 const Learning = () => {
   useEffect(() => {
     document.title = "Learning Programs | Numberosity Academy";
+    window.scrollTo(0, 0);
   }, []);
 
   const sections = [

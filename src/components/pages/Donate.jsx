@@ -135,9 +135,11 @@ const Donate = () => {
                 </div>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Donate With Zelle</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                  Donate With Zelle
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  To donate using Zelle, you may pay to the account under: 
+                  To donate using Zelle, you may pay to the account under:
                 </p>
                 <address className="text-gray-700 not-italic bg-gray-100 p-4 rounded-lg">
                   numberosityacademy@gmail.com
