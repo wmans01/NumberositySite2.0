@@ -421,9 +421,7 @@ const TeamPage = () => {
         "Bojro Das - Programmer and Driver",
         "Takeru Endo - Builder",
         "Varun Khedkar- Builder",
-        "Eric Li - Builder",
-        "Jeff Li - Builder and Coder",
-        "Joshua Liu - Builder and Coder",
+        "Eric Li - ESA",
       ],
     },
   };
