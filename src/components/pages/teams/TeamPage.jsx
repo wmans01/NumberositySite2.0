@@ -32,7 +32,7 @@ const TeamPage = () => {
           {
             achievement: [
               `🏆Skills Challenge Champion 
-               🏆Tournament Semifinalists`,
+               🏆Quarterfinalists`,
             ],
 
             event: "Massachusetts State Championship",
@@ -273,12 +273,19 @@ const TeamPage = () => {
         "Team 8889C, 98%, represents our middle school division. They show great promise and dedication to robotics.",
       achievements: [
         "Framingham January MS Event Tournament and Skills Champions",
-        "Framingham December MS Event Tournament Finalists",
+        "Massachusetts State Championship Design Award Winners",
         "Worlds Qualified",
       ],
 
       historicalAchievements: {
         "2024-2025": [
+          {
+            achievement: [
+              `🏆 Design Award`
+            ],
+            event: "Massachusetts 2025 Middle School State Championship",
+            date: "Feb 2025",
+          }
           {
             achievement: [
               `🏆 Tournament Champions 
