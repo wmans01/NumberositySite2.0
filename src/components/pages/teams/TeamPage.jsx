@@ -280,12 +280,10 @@ const TeamPage = () => {
       historicalAchievements: {
         "2024-2025": [
           {
-            achievement: [
-              `🏆 Design Award`
-            ],
+            achievement: [`🏆 Design Award`],
             event: "Massachusetts 2025 Middle School State Championship",
             date: "Feb 2025",
-          }
+          },
           {
             achievement: [
               `🏆 Tournament Champions 
