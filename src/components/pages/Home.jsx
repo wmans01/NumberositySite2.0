@@ -44,6 +44,13 @@ const Home = () => {
         "Diyi Education, a trusted academic support provider for students in grades 3–12 since 2013, has supported Numberosity Academy through a generous sponsorship that furthers our mission to empower young learners of all backgrounds.",
       link: "https://diyiboston.com",
     },
+    {
+      image: "/sponsors/knovva.png",
+      name: "Knovva Academy",
+      description:
+        "Knovva Academy Foundation, a global leader in educational empowerment and mentorship, has generously sponsored Numberosity Academy, advancing our shared mission to eliminate educational inequality and inspire the next generation of STEM leaders.",
+      link: "https://www.knovva.org/",
+    },
   ];
 
   return (
