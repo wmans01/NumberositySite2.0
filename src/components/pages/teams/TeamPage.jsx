@@ -25,6 +25,7 @@ const TeamPage = () => {
         "Southern New England Regional Tournament Champion 2024",
         "Lobstah Bowl Signature Event Excellence Award Winners 2024",
         "WAVE @ WPI Signature Event Tournament and Skills Champions 2023",
+        "Google Community Challenge 2025 Winner",
         "Worlds Qualified",
       ],
       historicalAchievements: {
