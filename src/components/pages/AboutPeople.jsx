@@ -143,7 +143,7 @@ const AboutPeople = () => {
     },
     {
       name: "Peter Bai",
-      role: "Co-Founder and Software Director",
+      role: "Co-Founder and Software Coach",
       description:
         "A junior at Lexington High School with 5 years of VEX Robotics experience, specializing in programming. Passionate about mathematics and robotics, he serves as Vice President of New England Robotics Association. A 5x AIME qualifier and USAJMO/USAMO qualifier, he enjoys teaching programming and mentoring students.",
       image: "/about/peter.jpg",
