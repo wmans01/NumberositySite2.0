@@ -43,7 +43,15 @@ const Teams = () => {
     },
     {
       id: 5,
-      number: "8889X",
+      number: "8889V",
+      name: "V Team",
+      grade: "High School",
+      logo: "/teams/8889V.png",
+      link: "/teams/8889V",
+    },
+    {
+      id: 6,
+      number: "8889X (Retired)",
       name: "1%",
       grade: "High School",
       logo: "/teams/8889X.jpg",
@@ -103,7 +111,7 @@ const Teams = () => {
               </Link>
             ))}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 mx-auto">
             {teams.slice(3).map((team) => (
               <Link key={team.id} to={team.link} className="block">
                 <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-6 h-full border border-gray-200 hover:border-[#0BA2D9] group">
