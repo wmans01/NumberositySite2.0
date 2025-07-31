@@ -17,9 +17,9 @@ const Learning = () => {
       icon: "💻",
     },
     {
-      title: "Summer Programs",
+      title: "Summer Clinics",
       description:
-        "Discover our exciting summer programs for 2024 and 2025. Hands-on learning experiences in robotics and STEM.",
+        "Discover our exciting summer clinics for 2024 and 2025. Hands-on learning experiences in robotics and STEM.",
       link: "/learning/summer",
       icon: "☀️",
     },

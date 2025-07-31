@@ -4,7 +4,7 @@ import NavHeader from "/src/components/NavHeader.jsx";
 
 const Summer2025 = () => {
   useEffect(() => {
-    document.title = "Summer Program 2025 | Numberosity Academy";
+    document.title = "Summer Clinic 2025 | Numberosity Academy";
   }, []);
 
   return (
@@ -31,18 +31,18 @@ const Summer2025 = () => {
                 d="M15 19l-7-7 7-7"
               />
             </svg>
-            Back to Summer Programs
+            Back to Summer Clinics
           </Link>
 
           {/* Main Flyer Image */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <img
               src="/2025-flyer.jpg"
               alt="VEX Robotics Summer Camps 2025"
               className="w-full rounded-xl shadow-lg"
               loading="lazy"
             />
-          </div>
+          </div> */}
 
           {/* Camp Information */}
           <div className="space-y-16">
@@ -77,7 +77,7 @@ const Summer2025 = () => {
             {/* Session 1 */}
             <div className="bg-white rounded-xl p-8 border border-gray-200">
               <h2 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-6">
-                Session 1: FUN-damental VEX Robotics Camp
+                Session 1: FUN-damental VEX Robotics Clinic
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
@@ -116,7 +116,7 @@ const Summer2025 = () => {
             {/* Session 2 */}
             <div className="bg-white rounded-xl p-8 border border-gray-200">
               <h2 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-6">
-                Session 2: Advanced Boot Camp
+                Session 2: Advanced Clinic
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
@@ -168,7 +168,7 @@ const Summer2025 = () => {
                 Register Now
               </a>
               <p className="mt-8 text-gray-600">
-                A portion of the proceeds from this camp will be used to fund
+                A portion of the proceeds from this clinic will be used to fund
                 robotics events which we will host for the community.
               </p>
             </div>

@@ -4,7 +4,7 @@ import NavHeader from "/src/components/NavHeader.jsx";
 
 const Summer = () => {
   useEffect(() => {
-    document.title = "Summer Programs | Numberosity Academy";
+    document.title = "Summer Clinics | Numberosity Academy";
   }, []);
   return (
     <div className="relative bg-white">
@@ -37,7 +37,7 @@ const Summer = () => {
           </h1>
           <div className="bg-blue-50 rounded-xl p-8 border border-blue-100 mb-16">
             <p className="font-['Roboto'] text-lg text-gray-700 text-center">
-              Experience hands-on learning in our summer programs. Each year
+              Experience hands-on learning in our summer clinics. Each year
               brings new challenges, workshops, and opportunities to develop
               your STEM skills in a fun and engaging environment.
             </p>
@@ -48,10 +48,10 @@ const Summer = () => {
               <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-8 h-full border border-gray-200 hover:border-[#0BA2D9] group">
                 <div className="text-4xl mb-4">☀️</div>
                 <h2 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-3 group-hover:text-[#0BA2D9] transition-colors">
-                  Summer Program 2024
+                  Summer Clinic 2024
                 </h2>
                 <p className="font-['Roboto'] text-gray-600">
-                  The 2024 Summer Program was a success! Check out the the
+                  The 2024 Summer Clinic was a success! Check out the the
                   highlights.
                 </p>
               </div>
@@ -62,10 +62,10 @@ const Summer = () => {
               <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-8 h-full border border-gray-200 hover:border-[#0BA2D9] group">
                 <div className="text-4xl mb-4">☀️</div>
                 <h2 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-3 group-hover:text-[#0BA2D9] transition-colors">
-                  Summer Program 2025
+                  Summer Clinic 2025
                 </h2>
                 <p className="font-['Roboto'] text-gray-600">
-                  Join us for our VEX Robotics Summer Camps! Two sessions
+                  Join us for our VEX Robotics Summer Clinics! Two sessions
                   available: FUN-damental Camp and Advanced Boot Camp.
                 </p>
               </div>
