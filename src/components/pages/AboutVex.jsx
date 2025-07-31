@@ -60,30 +60,32 @@ const AboutVex = () => {
               </p>
               <p className="font-['Roboto'] text-gray-600 mb-4">
                 Past games have included Tower Takeover (2019-2020), Change Up
-                (2020-2021), Tipping Point (2021-2022), and Spin Up (2022-2023).
-                Each game presents unique challenges that push teams to develop
-                new skills and strategies.
+                (2020-2021), Tipping Point (2021-2022), Spin Up (2022-2023),
+                Over Under (2023-2024), and High Stakes (2024-2025). Each game
+                presents unique challenges that push teams to develop new skills
+                and strategies.
               </p>
             </div>
 
             <div className="mb-12">
               <h2 className="font-['Roboto'] font-bold text-2xl text-gray-900 mb-4">
-                This Year's Game: High Stakes
+                This Year's Game: Push Back
               </h2>
               <div className="aspect-w-16 aspect-h-9 mb-4 h-[500px]">
                 <iframe
                   className="w-full h-full rounded-lg shadow-lg"
-                  src="https://www.youtube.com/embed/Sx6HJSpopeQ"
-                  title="VEX Robotics Competition 2024-2025: High Stakes"
+                  src="https://www.youtube.com/embed/ocmONiVun9M"
+                  title="VEX Robotics Competition 2025-2026: Push Back"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
               <p className="font-['Roboto'] text-gray-600">
-                The 2024-2025 VEX Robotics Competition game, High Stakes,
-                challenges teams to score points by scoring rings onto various
-                stakes at different elevations. Teams must navigate obstacles
-                and work together to achieve the highest score possible.
+                The 2025-2026 VEX Robotics Competition game, Push Back,
+                challenges teams to score points by scoring blocks into various
+                goals of different sizes and elevations. Teams must navigate
+                obstacles and work together to achieve the highest score
+                possible.
               </p>
             </div>
           </div>
